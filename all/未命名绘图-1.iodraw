@@ -277,7 +277,7 @@
           <mxGeometry x="2070" y="2775" width="500" height="115" as="geometry" />
         </mxCell>
         <mxCell id="jvQAVXSHA2rTicbOk-mt-9" value="删除计算记录，暂存文件为空" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="1">
-          <mxGeometry x="2080" y="2785" width="500" height="115" as="geometry" />
+          <mxGeometry x="2070" y="2450" width="500" height="115" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
