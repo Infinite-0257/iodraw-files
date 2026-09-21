@@ -40,6 +40,9 @@
         <mxCell id="m_save" value="可选：保存 / 另存会话 JSON&#xa;写入程序路径、显示选项、材料、分析、&#xa;网格、求解设置及输出字段&#xa;不打包模型、边界条件或计算结果" style="rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
           <mxGeometry x="50" y="920" width="440" height="155" as="geometry" />
         </mxCell>
+        <mxCell id="5vZWpeuJr3HITQHxux4a-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m_click" target="5vZWpeuJr3HITQHxux4a-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="m_click" value="用户点击 Run Solver" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
           <mxGeometry x="715" y="955" width="360" height="65" as="geometry" />
         </mxCell>
@@ -249,7 +252,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="5vZWpeuJr3HITQHxux4a-1" value="入口检查：无其他运行任务且求解器存在&#xa;AI 提案含分配且无已确认分配时，先确认&#xa;检查不通过或确认取消 → 提示并中止" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="1">
-          <mxGeometry x="655" y="1090" width="500" height="115" as="geometry" />
+          <mxGeometry x="1280" y="930" width="500" height="115" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
