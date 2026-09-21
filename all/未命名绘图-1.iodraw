@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" compressed="false" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36 Edg/152.0.0.0" version="24.7.17" pages="3">
   <diagram id="main" name="01 当前软件主流程">
-    <mxGraphModel dx="3565" dy="1938" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1940" pageHeight="2780" math="0" shadow="0">
+    <mxGraphModel dx="5704" dy="3100" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1940" pageHeight="2780" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -59,7 +59,7 @@
           <mxGeometry x="210" y="1470" width="500" height="120" as="geometry" />
         </mxCell>
         <mxCell id="m_native" value="已有 input.dat 路径&#xa;检查项目根目录 input.dat 是否存在&#xa;更新材料参数并写 material_properties.dat&#xa;不存在或写入失败则中止" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
-          <mxGeometry x="1090" y="1470" width="500" height="120" as="geometry" />
+          <mxGeometry x="940" y="1450" width="500" height="120" as="geometry" />
         </mxCell>
         <mxCell id="m_inputnote" value="当前输入路径限制&#xa;打开外部 .dat 只更新显示模型；&#xa;非 CAD 求解仍读取根目录 input.dat。&#xa;两者目前未统一绑定。" style="shape=note;size=20;fillColor=#fff2cc;strokeColor=#d6b656;align=left;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
           <mxGeometry x="1670" y="1460" width="440" height="140" as="geometry" />
