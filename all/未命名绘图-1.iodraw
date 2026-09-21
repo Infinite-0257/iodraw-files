@@ -79,6 +79,9 @@
         <mxCell id="m_origin" value="结果来自本次成功求解？" style="rhombus;fillColor=#fff2cc;strokeColor=#d6b656;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
           <mxGeometry x="720" y="2245" width="350" height="100" as="geometry" />
         </mxCell>
+        <mxCell id="jvQAVXSHA2rTicbOk-mt-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m_snapshot" target="jvQAVXSHA2rTicbOk-mt-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="m_snapshot" value="更新 solved_snapshot 与求解配置哈希&#xa;仅保留在当前 GUI 会话内存&#xa;save_simulation_snapshot() 不持久化结果快照" style="rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
           <mxGeometry x="645" y="2410" width="500" height="105" as="geometry" />
         </mxCell>
@@ -276,8 +279,8 @@
         <mxCell id="jvQAVXSHA2rTicbOk-mt-7" value="删除计算记录，暂存文件为空" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="1">
           <mxGeometry x="2070" y="2775" width="500" height="115" as="geometry" />
         </mxCell>
-        <mxCell id="jvQAVXSHA2rTicbOk-mt-9" value="删除计算记录，暂存文件为空" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="1">
-          <mxGeometry x="2070" y="2450" width="500" height="115" as="geometry" />
+        <mxCell id="jvQAVXSHA2rTicbOk-mt-9" value="删除计算记录，暂存文件" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="2070" y="2405" width="500" height="115" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
