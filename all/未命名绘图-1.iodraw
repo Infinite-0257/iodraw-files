@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" compressed="false" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36 Edg/152.0.0.0" version="24.7.17" pages="3">
   <diagram id="main" name="01 当前软件主流程">
-    <mxGraphModel dx="2593" dy="1409" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1940" pageHeight="2780" math="0" shadow="0">
+    <mxGraphModel dx="2852" dy="1550" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1940" pageHeight="2780" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -252,7 +252,11 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="jvQAVXSHA2rTicbOk-mt-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5vZWpeuJr3HITQHxux4a-1" target="m_guard">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2660" y="1138" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="5vZWpeuJr3HITQHxux4a-1" value="将计算使用的配置、输入和结果作为一套计算记录，保存进暂存文件" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="1">
           <mxGeometry x="2370" y="930" width="500" height="115" as="geometry" />
