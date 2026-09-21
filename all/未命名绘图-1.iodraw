@@ -181,7 +181,7 @@
         <mxCell id="main_e17" value="否" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="1" source="m_route" target="m_native" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1340" y="1335" />
+              <mxPoint x="1180" y="1335" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -196,7 +196,7 @@
         <mxCell id="main_e19" value="准备成功" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="1" source="m_native" target="m_solver" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1340" y="1640" />
+              <mxPoint x="1180" y="1640" />
               <mxPoint x="895" y="1640" />
             </Array>
           </mxGeometry>
