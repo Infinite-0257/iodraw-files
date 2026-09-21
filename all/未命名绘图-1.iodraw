@@ -44,10 +44,10 @@
           <mxGeometry x="50" y="920" width="440" height="155" as="geometry" />
         </mxCell>
         <mxCell id="m_click" value="用户点击 Run Solver" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
-          <mxGeometry x="715" y="955" width="360" height="45" as="geometry" />
+          <mxGeometry x="715" y="955" width="360" height="65" as="geometry" />
         </mxCell>
         <mxCell id="m_guard" value="入口检查：无其他运行任务且求解器存在&#xa;AI 提案含分配且无已确认分配时，先确认&#xa;检查不通过或确认取消 → 提示并中止" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
-          <mxGeometry x="645" y="1080" width="500" height="115" as="geometry" />
+          <mxGeometry x="645" y="1090" width="500" height="115" as="geometry" />
         </mxCell>
         <mxCell id="m_route" value="当前存在 CAD 几何&#xa;且具有拓扑模型？" style="rhombus;fillColor=#fff2cc;strokeColor=#d6b656;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
           <mxGeometry x="720" y="1270" width="350" height="130" as="geometry" />
