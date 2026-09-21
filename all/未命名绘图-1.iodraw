@@ -168,9 +168,6 @@
         <mxCell id="main_e13" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="1" source="m_ready" target="m_click" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="main_e14" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="1" source="m_click" target="m_guard" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="main_e15" value="通过" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="1" source="m_guard" target="m_route" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
