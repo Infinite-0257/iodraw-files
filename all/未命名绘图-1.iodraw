@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" compressed="false" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36 Edg/152.0.0.0" version="24.7.17" pages="3">
   <diagram id="main" name="01 当前软件主流程">
-    <mxGraphModel dx="5109" dy="1722" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1940" pageHeight="2780" math="0" shadow="0">
+    <mxGraphModel dx="3169" dy="1722" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1940" pageHeight="2780" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -83,10 +83,10 @@
           <mxGeometry x="1340" y="2560" width="490" height="105" as="geometry" />
         </mxCell>
         <mxCell id="m_note" value="当前保存行为&#xa;• 根目录固定文件会被后续运行复用 / 覆写。&#xa;• 尚未实现独立运行目录和两次结果轮换。&#xa;• 重启时为空视图，不自动恢复上一结果。&#xa;• 物理校验、工程报告尚未接入此 GUI 闭环；&#xa;  Report 视图当前为占位。" style="shape=note;size=20;fillColor=#fff2cc;strokeColor=#d6b656;align=left;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
-          <mxGeometry x="-820" y="2070" width="510" height="250" as="geometry" />
+          <mxGeometry x="50" y="2250" width="510" height="250" as="geometry" />
         </mxCell>
         <mxCell id="m_errnote" value="通用异常处理&#xa;导入、配置、网格或导出出错时，提示错误，&#xa;停止当前动作，用户修正后重新操作。" style="shape=note;size=20;fillColor=#fff2cc;strokeColor=#d6b656;align=left;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
-          <mxGeometry x="-750" y="1890" width="460" height="120" as="geometry" />
+          <mxGeometry x="50" y="1900" width="460" height="120" as="geometry" />
         </mxCell>
         <mxCell id="main_e1" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="1" source="m_start" target="m_init" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -244,9 +244,8 @@
         <mxCell id="main_e30" value="修改 / 再次计算" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;dashed=1;exitX=0;exitY=0.5;entryX=0;entryY=0.5;" parent="1" source="m_next" target="m_ready" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-240" y="2620" />
-              <mxPoint x="-240" y="840" />
-              <mxPoint x="600" y="840" />
+              <mxPoint x="580" y="2620" />
+              <mxPoint x="580" y="840" />
             </Array>
           </mxGeometry>
         </mxCell>
