@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" compressed="false" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36 Edg/152.0.0.0" version="24.7.17" pages="3">
   <diagram id="main" name="01 当前软件主流程">
-    <mxGraphModel dx="2377" dy="1292" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1940" pageHeight="2780" math="0" shadow="0">
+    <mxGraphModel dx="1358" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1940" pageHeight="2780" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -78,9 +78,6 @@
         </mxCell>
         <mxCell id="m_origin" value="结果来自本次成功求解？" style="rhombus;fillColor=#fff2cc;strokeColor=#d6b656;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
           <mxGeometry x="720" y="2245" width="350" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="jvQAVXSHA2rTicbOk-mt-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m_snapshot" target="jvQAVXSHA2rTicbOk-mt-9">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="m_snapshot" value="更新 solved_snapshot 与求解配置哈希&#xa;仅保留在当前 GUI 会话内存&#xa;save_simulation_snapshot() 不持久化结果快照" style="rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
           <mxGeometry x="645" y="2410" width="500" height="105" as="geometry" />
