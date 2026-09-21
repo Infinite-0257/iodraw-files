@@ -62,7 +62,7 @@
           <mxGeometry x="645" y="1690" width="500" height="115" as="geometry" />
         </mxCell>
         <mxCell id="m_error" value="本次运行失败 / 取消 / 输出检查失败&#xa;记录 process_status.json 并显示错误&#xa;不接受本次结果；留在界面等待操作" style="rounded=1;fillColor=#f8cecc;strokeColor=#b85450;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
-          <mxGeometry x="1280" y="1840" width="540" height="120" as="geometry" />
+          <mxGeometry x="1310" y="1685" width="540" height="120" as="geometry" />
         </mxCell>
         <mxCell id="m_parse" value="解析 .plt → 转换结果模型与显示表面&#xa;result_parser.py / vtk_converter.py&#xa;文件缺失或解析异常 → 提示并中止加载" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
           <mxGeometry x="645" y="1900" width="500" height="115" as="geometry" />
