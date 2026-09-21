@@ -280,7 +280,12 @@
           <mxGeometry x="2090" y="2070" width="500" height="115" as="geometry" />
         </mxCell>
         <mxCell id="jvQAVXSHA2rTicbOk-mt-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.013;entryY=0.56;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="m_parse" target="jvQAVXSHA2rTicbOk-mt-9">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="895" y="2060" />
+              <mxPoint x="2084" y="2060" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
