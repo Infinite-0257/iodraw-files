@@ -202,7 +202,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="main_e20" value="现有限制" style="edgeStyle=orthogonalEdgeStyle;endArrow=none;html=0;labelBackgroundColor=#ffffff;dashed=1;strokeColor=#d6b656;" parent="1" source="m_native" target="m_inputnote" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1310" y="1430" />
+              <mxPoint x="1395" y="1430" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="main_e21" value="未通过" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="1" source="m_solver" target="m_error" edge="1">
           <mxGeometry relative="1" as="geometry" />
