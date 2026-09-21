@@ -210,8 +210,8 @@
         <mxCell id="main_e23" value="手动加载" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;dashed=1;" parent="1" source="m_plt" target="m_parse" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1900" y="617" />
-              <mxPoint x="1900" y="1820" />
+              <mxPoint x="2140" y="618" />
+              <mxPoint x="2140" y="1820" />
               <mxPoint x="1190" y="1820" />
               <mxPoint x="1190" y="1957" />
             </Array>
