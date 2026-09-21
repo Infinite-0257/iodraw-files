@@ -56,7 +56,7 @@
           <mxGeometry x="1090" y="1470" width="500" height="120" as="geometry" />
         </mxCell>
         <mxCell id="m_inputnote" value="当前输入路径限制&#xa;打开外部 .dat 只更新显示模型；&#xa;非 CAD 求解仍读取根目录 input.dat。&#xa;两者目前未统一绑定。" style="shape=note;size=20;fillColor=#fff2cc;strokeColor=#d6b656;align=left;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
-          <mxGeometry x="1430" y="1660" width="440" height="140" as="geometry" />
+          <mxGeometry x="1700" y="1460" width="440" height="140" as="geometry" />
         </mxCell>
         <mxCell id="m_solver" value="启动求解并检查进程 / 状态 / 输出&#xa;生成 run_id 与当前会话的待求解快照&#xa;详见第 3 页" style="shape=process;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
           <mxGeometry x="645" y="1690" width="500" height="115" as="geometry" />
