@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" compressed="false" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36 Edg/152.0.0.0" version="24.7.17" pages="3">
   <diagram id="main" name="01 当前软件主流程">
-    <mxGraphModel dx="7644" dy="3100" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1940" pageHeight="2780" math="0" shadow="0">
+    <mxGraphModel dx="5109" dy="1722" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1940" pageHeight="2780" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -83,7 +83,7 @@
           <mxGeometry x="1340" y="2560" width="490" height="105" as="geometry" />
         </mxCell>
         <mxCell id="m_note" value="当前保存行为&#xa;• 根目录固定文件会被后续运行复用 / 覆写。&#xa;• 尚未实现独立运行目录和两次结果轮换。&#xa;• 重启时为空视图，不自动恢复上一结果。&#xa;• 物理校验、工程报告尚未接入此 GUI 闭环；&#xa;  Report 视图当前为占位。" style="shape=note;size=20;fillColor=#fff2cc;strokeColor=#d6b656;align=left;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
-          <mxGeometry x="50" y="2250" width="510" height="250" as="geometry" />
+          <mxGeometry x="-790" y="2120" width="510" height="250" as="geometry" />
         </mxCell>
         <mxCell id="m_errnote" value="通用异常处理&#xa;导入、配置、网格或导出出错时，提示错误，&#xa;停止当前动作，用户修正后重新操作。" style="shape=note;size=20;fillColor=#fff2cc;strokeColor=#d6b656;align=left;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
           <mxGeometry x="-750" y="1890" width="460" height="120" as="geometry" />
