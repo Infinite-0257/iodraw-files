@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" compressed="false" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36 Edg/152.0.0.0" version="24.7.17" pages="3">
   <diagram id="main" name="01 当前软件主流程">
-    <mxGraphModel dx="4074" dy="2214" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1940" pageHeight="2780" math="0" shadow="0">
+    <mxGraphModel dx="2377" dy="1292" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1940" pageHeight="2780" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -472,89 +472,89 @@
     </mxGraphModel>
   </diagram>
   <diagram id="solver" name="03 FastFEM 求解与结果接收">
-    <mxGraphModel dx="1600" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1940" pageHeight="2300" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1940" pageHeight="2300" math="0" shadow="0">
       <root>
         <mxCell id="solver_root" />
         <mxCell id="solver_layer" parent="solver_root" />
-        <mxCell id="s_title" value="FastFEM 求解与结果接收｜当前实现" style="text;html=0;fontSize=27;fontStyle=1;align=left;verticalAlign=middle;" vertex="1" parent="solver_layer">
+        <mxCell id="s_title" value="FastFEM 求解与结果接收｜当前实现" style="text;html=0;fontSize=27;fontStyle=1;align=left;verticalAlign=middle;" parent="solver_layer" vertex="1">
           <mxGeometry x="50" y="20" width="1820" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="s_subtitle" value="左侧：外部程序正常计算路径。右侧：GUI 对进程、状态和结果的检查。文件存在不等于本次计算成功。" style="text;html=0;fontSize=14;align=left;fontColor=#64748b;whiteSpace=wrap;" vertex="1" parent="solver_layer">
+        <mxCell id="s_subtitle" value="左侧：外部程序正常计算路径。右侧：GUI 对进程、状态和结果的检查。文件存在不等于本次计算成功。" style="text;html=0;fontSize=14;align=left;fontColor=#64748b;whiteSpace=wrap;" parent="solver_layer" vertex="1">
           <mxGeometry x="50" y="80" width="1820" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="s_entry" value="入口：输入准备完成&#xa;记录待求解快照、开始时间和 run_id&#xa;传入 FASTFEM_RUN_ID；按设置传入 FASTFEM_SOLVER" style="ellipse;fillColor=#d5e8d4;strokeColor=#82b366;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="solver_layer">
+        <mxCell id="s_entry" value="入口：输入准备完成&#xa;记录待求解快照、开始时间和 run_id&#xa;传入 FASTFEM_RUN_ID；按设置传入 FASTFEM_SOLVER" style="ellipse;fillColor=#d5e8d4;strokeColor=#82b366;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="solver_layer" vertex="1">
           <mxGeometry x="110" y="165" width="630" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="s_launch" value="CommandWorker / QThread 启动外部进程&#xa;.bat 经 cmd 执行；EXE 经 oneAPI 启动脚本执行&#xa;当前工作目录为项目根目录；实时转发标准输出日志" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="solver_layer">
+        <mxCell id="s_launch" value="CommandWorker / QThread 启动外部进程&#xa;.bat 经 cmd 执行；EXE 经 oneAPI 启动脚本执行&#xa;当前工作目录为项目根目录；实时转发标准输出日志" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="solver_layer" vertex="1">
           <mxGeometry x="110" y="355" width="630" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="s_read" value="Fortran 读取 input.dat&#xa;识别 2D / 3D、单元类型与材料&#xa;读取节点、单元、载荷约束；节点重编号" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="solver_layer">
+        <mxCell id="s_read" value="Fortran 读取 input.dat&#xa;识别 2D / 3D、单元类型与材料&#xa;读取节点、单元、载荷约束；节点重编号" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="solver_layer" vertex="1">
           <mxGeometry x="110" y="555" width="630" height="115" as="geometry" />
         </mxCell>
-        <mxCell id="s_backend" value="选择线性方程求解后端&#xa;自动：neq ≤ 100000 → LAPACK&#xa;100000 &lt; neq ≤ 1000000 → PARDISO&#xa;neq &gt; 1000000 → AMG 预条件 CG&#xa;FASTFEM_SOLVER 可覆盖自动选择，包括 CG" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="solver_layer">
+        <mxCell id="s_backend" value="选择线性方程求解后端&#xa;自动：neq ≤ 100000 → LAPACK&#xa;100000 &lt; neq ≤ 1000000 → PARDISO&#xa;neq &gt; 1000000 → AMG 预条件 CG&#xa;FASTFEM_SOLVER 可覆盖自动选择，包括 CG" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="solver_layer" vertex="1">
           <mxGeometry x="110" y="750" width="630" height="175" as="geometry" />
         </mxCell>
-        <mxCell id="s_solve" value="计算单元刚度并装配整体方程&#xa;施加载荷 / 约束 → 调用选定后端 → 得到位移&#xa;带状 LAPACK 与稀疏 CSR 路径分别处理" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="solver_layer">
+        <mxCell id="s_solve" value="计算单元刚度并装配整体方程&#xa;施加载荷 / 约束 → 调用选定后端 → 得到位移&#xa;带状 LAPACK 与稀疏 CSR 路径分别处理" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="solver_layer" vertex="1">
           <mxGeometry x="110" y="1005" width="630" height="125" as="geometry" />
         </mxCell>
-        <mxCell id="s_post" value="正常返回后的后处理路径&#xa;求解成功时恢复反力&#xa;恢复应力 / 应变，并还原原始节点顺序" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="solver_layer">
+        <mxCell id="s_post" value="正常返回后的后处理路径&#xa;求解成功时恢复反力&#xa;恢复应力 / 应变，并还原原始节点顺序" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="solver_layer" vertex="1">
           <mxGeometry x="110" y="1220" width="630" height="115" as="geometry" />
         </mxCell>
-        <mxCell id="s_output" value="写出 output_results.plt、output.dat、output.log&#xa;成功的反力恢复路径写 reactions.dat&#xa;写 solver_status.dat：run_id、后端、状态及诊断" style="rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="solver_layer">
+        <mxCell id="s_output" value="写出 output_results.plt、output.dat、output.log&#xa;成功的反力恢复路径写 reactions.dat&#xa;写 solver_status.dat：run_id、后端、状态及诊断" style="rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="solver_layer" vertex="1">
           <mxGeometry x="110" y="1420" width="630" height="125" as="geometry" />
         </mxCell>
-        <mxCell id="s_numericnote" value="现有数值路径限制&#xa;• 某些异常直接 STOP，可能没有最终状态文件。&#xa;• LAPACK 失败后仍可能继续应力恢复和结果写出。&#xa;• CG / AMG 的迭代次数和残差未完整回传。&#xa;GUI 必须依据状态检查接收结果。" style="shape=note;size=20;fillColor=#fff2cc;strokeColor=#d6b656;align=left;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="solver_layer">
+        <mxCell id="s_numericnote" value="现有数值路径限制&#xa;• 某些异常直接 STOP，可能没有最终状态文件。&#xa;• LAPACK 失败后仍可能继续应力恢复和结果写出。&#xa;• CG / AMG 的迭代次数和残差未完整回传。&#xa;GUI 必须依据状态检查接收结果。" style="shape=note;size=20;fillColor=#fff2cc;strokeColor=#d6b656;align=left;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="solver_layer" vertex="1">
           <mxGeometry x="110" y="1650" width="630" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="s_worker" value="进程结束 → command_finished()&#xa;CommandWorker 检查退出码和取消标记&#xa;触发 finished_ok 或 failed 信号" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="solver_layer">
+        <mxCell id="s_worker" value="进程结束 → command_finished()&#xa;CommandWorker 检查退出码和取消标记&#xa;触发 finished_ok 或 failed 信号" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="solver_layer" vertex="1">
           <mxGeometry x="1020" y="355" width="650" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="s_cancel" value="用户点击取消&#xa;标记取消；terminate 当前 Popen 进程&#xa;等待最多 5 秒，必要时 kill&#xa;不代表已实现整个子进程树的终止" style="rounded=1;fillColor=#f8cecc;strokeColor=#b85450;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="solver_layer">
+        <mxCell id="s_cancel" value="用户点击取消&#xa;标记取消；terminate 当前 Popen 进程&#xa;等待最多 5 秒，必要时 kill&#xa;不代表已实现整个子进程树的终止" style="rounded=1;fillColor=#f8cecc;strokeColor=#b85450;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="solver_layer" vertex="1">
           <mxGeometry x="1020" y="165" width="650" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="s_eval" value="evaluate_process_run()&#xa;① 检查启动失败、取消及退出码&#xa;② solver_status.dat 必须存在并可读取&#xa;③ 状态中的 run_id 非空时，必须匹配本次 run_id&#xa;④ .plt 必须存在、非空且修改时间不早于开始时间减 1 秒&#xa;⑤ 求解状态必须为 success 且无 errors" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="solver_layer">
+        <mxCell id="s_eval" value="evaluate_process_run()&#xa;① 检查启动失败、取消及退出码&#xa;② solver_status.dat 必须存在并可读取&#xa;③ 状态中的 run_id 非空时，必须匹配本次 run_id&#xa;④ .plt 必须存在、非空且修改时间不早于开始时间减 1 秒&#xa;⑤ 求解状态必须为 success 且无 errors" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="solver_layer" vertex="1">
           <mxGeometry x="1020" y="590" width="650" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="s_process" value="写项目根目录 process_status.json&#xa;保存本次进程、求解状态及诊断" style="rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="solver_layer">
+        <mxCell id="s_process" value="写项目根目录 process_status.json&#xa;保存本次进程、求解状态及诊断" style="rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="solver_layer" vertex="1">
           <mxGeometry x="1020" y="915" width="650" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="s_accept" value="can_accept_results 为真？" style="rhombus;fillColor=#fff2cc;strokeColor=#d6b656;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="solver_layer">
+        <mxCell id="s_accept" value="can_accept_results 为真？" style="rhombus;fillColor=#fff2cc;strokeColor=#d6b656;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="solver_layer" vertex="1">
           <mxGeometry x="1170" y="1105" width="350" height="125" as="geometry" />
         </mxCell>
-        <mxCell id="s_recheck" value="再次检查结果文件存在、非空及时间&#xa;check_solver_result_file()" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="solver_layer">
+        <mxCell id="s_recheck" value="再次检查结果文件存在、非空及时间&#xa;check_solver_result_file()" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="solver_layer" vertex="1">
           <mxGeometry x="1020" y="1345" width="650" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="s_good" value="检查通过 → 返回第 1 页&#xa;解析 .plt 并显示结果&#xa;解析成功后只更新会话内求解快照" style="rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="solver_layer">
+        <mxCell id="s_good" value="检查通过 → 返回第 1 页&#xa;解析 .plt 并显示结果&#xa;解析成功后只更新会话内求解快照" style="rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="solver_layer" vertex="1">
           <mxGeometry x="1020" y="1555" width="650" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="s_bad" value="拒绝本次结果&#xa;标记错误 / 取消，清除待求解快照&#xa;显示原因并返回界面" style="rounded=1;fillColor=#f8cecc;strokeColor=#b85450;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="solver_layer">
+        <mxCell id="s_bad" value="拒绝本次结果&#xa;标记错误 / 取消，清除待求解快照&#xa;显示原因并返回界面" style="rounded=1;fillColor=#f8cecc;strokeColor=#b85450;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="solver_layer" vertex="1">
           <mxGeometry x="1535" y="1130" width="340" height="145" as="geometry" />
         </mxCell>
-        <mxCell id="s_files" value="当前磁盘数据：项目根目录固定文件&#xa;input.dat / material_properties.dat / generated_cad_mesh.msh&#xa;input.dat.export_metadata.json / output_results.plt / output.dat / output.log&#xa;solver_status.dat / process_status.json / reactions.dat&#xa;这些文件未按 run_id 分目录保存，后续运行会复用对应路径。" style="rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="solver_layer">
+        <mxCell id="s_files" value="当前磁盘数据：项目根目录固定文件&#xa;input.dat / material_properties.dat / generated_cad_mesh.msh&#xa;input.dat.export_metadata.json / output_results.plt / output.dat / output.log&#xa;solver_status.dat / process_status.json / reactions.dat&#xa;这些文件未按 run_id 分目录保存，后续运行会复用对应路径。" style="rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="solver_layer" vertex="1">
           <mxGeometry x="110" y="1960" width="1090" height="185" as="geometry" />
         </mxCell>
-        <mxCell id="s_lifecycle" value="关闭与重启：当前实现&#xa;求解状态快照仅在 GUI 内存中。&#xa;启动及保存快照函数会尝试删除旧 simulation_snapshot.json。&#xa;根目录文件留存，但重启不自动恢复网格 / 结果。&#xa;尚无「最近两次成功结果＋最近失败日志」轮换机制。" style="shape=note;size=20;fillColor=#fff2cc;strokeColor=#d6b656;align=left;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="solver_layer">
+        <mxCell id="s_lifecycle" value="关闭与重启：当前实现&#xa;求解状态快照仅在 GUI 内存中。&#xa;启动及保存快照函数会尝试删除旧 simulation_snapshot.json。&#xa;根目录文件留存，但重启不自动恢复网格 / 结果。&#xa;尚无「最近两次成功结果＋最近失败日志」轮换机制。" style="shape=note;size=20;fillColor=#fff2cc;strokeColor=#d6b656;align=left;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="solver_layer" vertex="1">
           <mxGeometry x="1260" y="1875" width="610" height="275" as="geometry" />
         </mxCell>
-        <mxCell id="solver_e1" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" edge="1" parent="solver_layer" source="s_entry" target="s_launch">
+        <mxCell id="solver_e1" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="solver_layer" source="s_entry" target="s_launch" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="solver_e2" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" edge="1" parent="solver_layer" source="s_launch" target="s_read">
+        <mxCell id="solver_e2" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="solver_layer" source="s_launch" target="s_read" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="solver_e3" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" edge="1" parent="solver_layer" source="s_read" target="s_backend">
+        <mxCell id="solver_e3" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="solver_layer" source="s_read" target="s_backend" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="solver_e4" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" edge="1" parent="solver_layer" source="s_backend" target="s_solve">
+        <mxCell id="solver_e4" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="solver_layer" source="s_backend" target="s_solve" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="solver_e5" value="正常返回" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" edge="1" parent="solver_layer" source="s_solve" target="s_post">
+        <mxCell id="solver_e5" value="正常返回" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="solver_layer" source="s_solve" target="s_post" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="solver_e6" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" edge="1" parent="solver_layer" source="s_post" target="s_output">
+        <mxCell id="solver_e6" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="solver_layer" source="s_post" target="s_output" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="solver_e7" value="进程退出" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" edge="1" parent="solver_layer" source="s_output" target="s_worker">
+        <mxCell id="solver_e7" value="进程退出" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="solver_layer" source="s_output" target="s_worker" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="865" y="1482" />
@@ -562,14 +562,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="solver_e8" value="启动异常" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;dashed=1;" edge="1" parent="solver_layer" source="s_launch" target="s_worker">
+        <mxCell id="solver_e8" value="启动异常" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;dashed=1;" parent="solver_layer" source="s_launch" target="s_worker" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="830" y="415" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="solver_e9" value="异常提前退出" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;dashed=1;" edge="1" parent="solver_layer" source="s_solve" target="s_worker">
+        <mxCell id="solver_e9" value="异常提前退出" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;dashed=1;" parent="solver_layer" source="s_solve" target="s_worker" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="810" y="1067" />
@@ -578,28 +578,28 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="solver_e10" value="进程退出后报告取消" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;dashed=1;" edge="1" parent="solver_layer" source="s_cancel" target="s_worker">
+        <mxCell id="solver_e10" value="进程退出后报告取消" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;dashed=1;" parent="solver_layer" source="s_cancel" target="s_worker" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="solver_e11" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" edge="1" parent="solver_layer" source="s_worker" target="s_eval">
+        <mxCell id="solver_e11" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="solver_layer" source="s_worker" target="s_eval" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="solver_e12" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" edge="1" parent="solver_layer" source="s_eval" target="s_process">
+        <mxCell id="solver_e12" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="solver_layer" source="s_eval" target="s_process" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="solver_e13" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" edge="1" parent="solver_layer" source="s_process" target="s_accept">
+        <mxCell id="solver_e13" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="solver_layer" source="s_process" target="s_accept" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="solver_e14" value="是" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" edge="1" parent="solver_layer" source="s_accept" target="s_recheck">
+        <mxCell id="solver_e14" value="是" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="solver_layer" source="s_accept" target="s_recheck" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="solver_e15" value="否" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" edge="1" parent="solver_layer" source="s_accept" target="s_bad">
+        <mxCell id="solver_e15" value="否" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="solver_layer" source="s_accept" target="s_bad" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="solver_e16" value="通过" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" edge="1" parent="solver_layer" source="s_recheck" target="s_good">
+        <mxCell id="solver_e16" value="通过" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="solver_layer" source="s_recheck" target="s_good" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="solver_e17" value="未通过" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" edge="1" parent="solver_layer" source="s_recheck" target="s_bad">
+        <mxCell id="solver_e17" value="未通过" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="solver_layer" source="s_recheck" target="s_bad" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1785" y="1395" />
@@ -607,7 +607,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="solver_e18" value="写入固定路径" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;dashed=1;" edge="1" parent="solver_layer" source="s_output" target="s_files">
+        <mxCell id="solver_e18" value="写入固定路径" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;dashed=1;" parent="solver_layer" source="s_output" target="s_files" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="70" y="1482" />
@@ -615,7 +615,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="solver_e19" value="写入固定路径" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;dashed=1;" edge="1" parent="solver_layer" source="s_process" target="s_files">
+        <mxCell id="solver_e19" value="写入固定路径" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;dashed=1;" parent="solver_layer" source="s_process" target="s_files" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="980" y="960" />
@@ -624,7 +624,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="solver_e20" value="异常语义说明" style="edgeStyle=orthogonalEdgeStyle;endArrow=none;html=0;labelBackgroundColor=#ffffff;dashed=1;strokeColor=#d6b656;" edge="1" parent="solver_layer" source="s_solve" target="s_numericnote">
+        <mxCell id="solver_e20" value="异常语义说明" style="edgeStyle=orthogonalEdgeStyle;endArrow=none;html=0;labelBackgroundColor=#ffffff;dashed=1;strokeColor=#d6b656;" parent="solver_layer" source="s_solve" target="s_numericnote" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="50" y="1067" />
