@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" compressed="false" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36 Edg/152.0.0.0" version="24.7.17" pages="3">
   <diagram id="main" name="01 当前软件主流程">
-    <mxGraphModel dx="7130" dy="3875" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1940" pageHeight="2780" math="0" shadow="0">
+    <mxGraphModel dx="4074" dy="2214" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1940" pageHeight="2780" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -253,109 +253,109 @@
     </mxGraphModel>
   </diagram>
   <diagram id="cad" name="02 CAD 建模与求解输入准备">
-    <mxGraphModel dx="1600" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1940" pageHeight="2010" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1940" pageHeight="2010" math="0" shadow="0">
       <root>
         <mxCell id="cad_root" />
         <mxCell id="cad_layer" parent="cad_root" />
-        <mxCell id="c_title" value="CAD 建模与求解输入准备｜当前实现" style="text;html=0;fontSize=27;fontStyle=1;align=left;verticalAlign=middle;" vertex="1" parent="cad_layer">
+        <mxCell id="c_title" value="CAD 建模与求解输入准备｜当前实现" style="text;html=0;fontSize=27;fontStyle=1;align=left;verticalAlign=middle;" parent="cad_layer" vertex="1">
           <mxGeometry x="50" y="20" width="1820" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="c_subtitle" value="左侧：导入、手动 / AI 配置。右侧：点击运行后执行的输入准备。单独生成网格仅更新预览，不等于已完成导出校验。" style="text;html=0;fontSize=14;align=left;fontColor=#64748b;whiteSpace=wrap;" vertex="1" parent="cad_layer">
+        <mxCell id="c_subtitle" value="左侧：导入、手动 / AI 配置。右侧：点击运行后执行的输入准备。单独生成网格仅更新预览，不等于已完成导出校验。" style="text;html=0;fontSize=14;align=left;fontColor=#64748b;whiteSpace=wrap;" parent="cad_layer" vertex="1">
           <mxGeometry x="50" y="80" width="1820" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="c_import" value="建模段入口：用户导入几何" style="ellipse;fillColor=#d5e8d4;strokeColor=#82b366;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="cad_layer">
+        <mxCell id="c_import" value="建模段入口：用户导入几何" style="ellipse;fillColor=#d5e8d4;strokeColor=#82b366;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="cad_layer" vertex="1">
           <mxGeometry x="220" y="160" width="420" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="c_format" value="STEP / STP / BREP？" style="rhombus;fillColor=#fff2cc;strokeColor=#d6b656;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="cad_layer">
+        <mxCell id="c_format" value="STEP / STP / BREP？" style="rhombus;fillColor=#fff2cc;strokeColor=#d6b656;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="cad_layer" vertex="1">
           <mxGeometry x="255" y="290" width="350" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="c_topology" value="OCCT / CadQuery 导入拓扑&#xa;建立点、边、面数据并显示&#xa;几何改变使依赖状态失效" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="cad_layer">
+        <mxCell id="c_topology" value="OCCT / CadQuery 导入拓扑&#xa;建立点、边、面数据并显示&#xa;几何改变使依赖状态失效" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="cad_layer" vertex="1">
           <mxGeometry x="60" y="465" width="390" height="105" as="geometry" />
         </mxCell>
-        <mxCell id="c_display" value="IGES / IGS、STL、OBJ、PLY、VTP、VTK&#xa;按现有导入器生成显示几何&#xa;无 CAD 求解所需 topology_model" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="cad_layer">
+        <mxCell id="c_display" value="IGES / IGS、STL、OBJ、PLY、VTP、VTK&#xa;按现有导入器生成显示几何&#xa;无 CAD 求解所需 topology_model" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="cad_layer" vertex="1">
           <mxGeometry x="505" y="465" width="410" height="105" as="geometry" />
         </mxCell>
-        <mxCell id="c_preview" value="返回主界面：几何预览&#xa;当前不能沿 CAD 拓扑路径生成求解网格" style="rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="cad_layer">
+        <mxCell id="c_preview" value="返回主界面：几何预览&#xa;当前不能沿 CAD 拓扑路径生成求解网格" style="rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="cad_layer" vertex="1">
           <mxGeometry x="520" y="625" width="385" height="85" as="geometry" />
         </mxCell>
-        <mxCell id="c_settings" value="设置分析、材料、网格、求解器和输出字段&#xa;当前 CAD 分析为静力结构&#xa;载荷 / 约束通过下面两种方式配置" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="cad_layer">
+        <mxCell id="c_settings" value="设置分析、材料、网格、求解器和输出字段&#xa;当前 CAD 分析为静力结构&#xa;载荷 / 约束通过下面两种方式配置" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="cad_layer" vertex="1">
           <mxGeometry x="60" y="635" width="390" height="105" as="geometry" />
         </mxCell>
-        <mxCell id="c_manual" value="手动设置&#xa;选择点 / 边 / 面 → 填写参数 → 应用&#xa;支持固定、位移、力、压力；压力限定面" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="cad_layer">
+        <mxCell id="c_manual" value="手动设置&#xa;选择点 / 边 / 面 → 填写参数 → 应用&#xa;支持固定、位移、力、压力；压力限定面" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="cad_layer" vertex="1">
           <mxGeometry x="30" y="825" width="405" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="c_ai" value="AI 辅助设置&#xa;自然语言 → Ollama 或规则解析&#xa;Ollama 失败且启用 fallback 时转规则" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="cad_layer">
+        <mxCell id="c_ai" value="AI 辅助设置&#xa;自然语言 → Ollama 或规则解析&#xa;Ollama 失败且启用 fallback 时转规则" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="cad_layer" vertex="1">
           <mxGeometry x="490" y="825" width="405" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="c_candidates" value="结构化提案 → 语义目标 → 几何候选&#xa;用户检查参数、补充信息并选择目标" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="cad_layer">
+        <mxCell id="c_candidates" value="结构化提案 → 语义目标 → 几何候选&#xa;用户检查参数、补充信息并选择目标" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="cad_layer" vertex="1">
           <mxGeometry x="490" y="1010" width="405" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="c_confirm" value="提案完整、目标已选&#xa;且用户确认？" style="rhombus;fillColor=#fff2cc;strokeColor=#d6b656;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="cad_layer">
+        <mxCell id="c_confirm" value="提案完整、目标已选&#xa;且用户确认？" style="rhombus;fillColor=#fff2cc;strokeColor=#d6b656;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="cad_layer" vertex="1">
           <mxGeometry x="520" y="1165" width="345" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="c_assign" value="更新 confirmed_assignments / 命名选区&#xa;绑定 CAD 目标；更新依赖状态" style="rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="cad_layer">
+        <mxCell id="c_assign" value="更新 confirmed_assignments / 命名选区&#xa;绑定 CAD 目标；更新依赖状态" style="rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="cad_layer" vertex="1">
           <mxGeometry x="220" y="1390" width="540" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="c_return" value="返回主界面等待操作&#xa;可点击「生成网格」或「Run Solver」" style="ellipse;fillColor=#d5e8d4;strokeColor=#82b366;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="cad_layer">
+        <mxCell id="c_return" value="返回主界面等待操作&#xa;可点击「生成网格」或「Run Solver」" style="ellipse;fillColor=#d5e8d4;strokeColor=#82b366;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="cad_layer" vertex="1">
           <mxGeometry x="220" y="1570" width="540" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="c_prepare" value="求解准备段入口&#xa;主流程已确认必要的 AI 提案" style="ellipse;fillColor=#d5e8d4;strokeColor=#82b366;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="cad_layer">
+        <mxCell id="c_prepare" value="求解准备段入口&#xa;主流程已确认必要的 AI 提案" style="ellipse;fillColor=#d5e8d4;strokeColor=#82b366;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="cad_layer" vertex="1">
           <mxGeometry x="1120" y="160" width="470" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="c_valid" value="求解前校验通过？&#xa;分析、材料、网格、求解器、&#xa;输出、约束 / 载荷与目标" style="rhombus;fillColor=#fff2cc;strokeColor=#d6b656;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="cad_layer">
+        <mxCell id="c_valid" value="求解前校验通过？&#xa;分析、材料、网格、求解器、&#xa;输出、约束 / 载荷与目标" style="rhombus;fillColor=#fff2cc;strokeColor=#d6b656;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="cad_layer" vertex="1">
           <mxGeometry x="1170" y="320" width="370" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="c_dirty" value="网格缺失 / 网格参数变化&#xa;或载荷约束配置变化？" style="rhombus;fillColor=#fff2cc;strokeColor=#d6b656;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="cad_layer">
+        <mxCell id="c_dirty" value="网格缺失 / 网格参数变化&#xa;或载荷约束配置变化？" style="rhombus;fillColor=#fff2cc;strokeColor=#d6b656;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="cad_layer" vertex="1">
           <mxGeometry x="1170" y="565" width="370" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="c_mesh" value="Gmsh 生成网格&#xa;重新导入 CAD → 建立实体映射 / Physical Groups&#xa;生成 TET4 / TET10 网格&#xa;写根目录 generated_cad_mesh.msh" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="cad_layer">
+        <mxCell id="c_mesh" value="Gmsh 生成网格&#xa;重新导入 CAD → 建立实体映射 / Physical Groups&#xa;生成 TET4 / TET10 网格&#xa;写根目录 generated_cad_mesh.msh" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="cad_layer" vertex="1">
           <mxGeometry x="1110" y="800" width="490" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="c_meshstate" value="更新内存网格、网格请求 / 配置签名&#xa;显示生成的网格" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="cad_layer">
+        <mxCell id="c_meshstate" value="更新内存网格、网格请求 / 配置签名&#xa;显示生成的网格" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="cad_layer" vertex="1">
           <mxGeometry x="1110" y="1040" width="490" height="95" as="geometry" />
         </mxCell>
-        <mxCell id="c_exportgate" value="导出阶段检查&#xa;配置校验 → 网格质量 → 载荷映射&#xa;任一检查失败即停止导出" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="cad_layer">
+        <mxCell id="c_exportgate" value="导出阶段检查&#xa;配置校验 → 网格质量 → 载荷映射&#xa;任一检查失败即停止导出" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="cad_layer" vertex="1">
           <mxGeometry x="1110" y="1240" width="490" height="115" as="geometry" />
         </mxCell>
-        <mxCell id="c_write" value="组装节点约束和等效节点载荷；转换单位&#xa;写 input.dat、input.dat.export_metadata.json&#xa;写 material_properties.dat；重新加载输入网格" style="rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="cad_layer">
+        <mxCell id="c_write" value="组装节点约束和等效节点载荷；转换单位&#xa;写 input.dat、input.dat.export_metadata.json&#xa;写 material_properties.dat；重新加载输入网格" style="rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="cad_layer" vertex="1">
           <mxGeometry x="1110" y="1450" width="490" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="c_done" value="输入准备成功 → 返回主流程启动求解" style="rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="cad_layer">
+        <mxCell id="c_done" value="输入准备成功 → 返回主流程启动求解" style="rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="cad_layer" vertex="1">
           <mxGeometry x="1110" y="1710" width="490" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="c_fail" value="校验 / 网格 / 导出失败&#xa;显示原因并中止本次操作&#xa;用户修正后重新执行" style="rounded=1;fillColor=#f8cecc;strokeColor=#b85450;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="cad_layer">
+        <mxCell id="c_fail" value="校验 / 网格 / 导出失败&#xa;显示原因并中止本次操作&#xa;用户修正后重新执行" style="rounded=1;fillColor=#f8cecc;strokeColor=#b85450;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="cad_layer" vertex="1">
           <mxGeometry x="1650" y="890" width="240" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="c_note" value="当前实现边界&#xa;1. CAD 导出路径支持 TET4 / TET10。&#xa;2. 质量与载荷映射检查在导出时执行。&#xa;3. 运行使用非交互导出，缺少 Physical Groups 时阻止。&#xa;4. 单独生成网格不会自动完成 FastFEM 求解。&#xa;5. 通用查询中仍包含支架等特定几何语义。" style="shape=note;size=20;fillColor=#fff2cc;strokeColor=#d6b656;align=left;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="cad_layer">
+        <mxCell id="c_note" value="当前实现边界&#xa;1. CAD 导出路径支持 TET4 / TET10。&#xa;2. 质量与载荷映射检查在导出时执行。&#xa;3. 运行使用非交互导出，缺少 Physical Groups 时阻止。&#xa;4. 单独生成网格不会自动完成 FastFEM 求解。&#xa;5. 通用查询中仍包含支架等特定几何语义。" style="shape=note;size=20;fillColor=#fff2cc;strokeColor=#d6b656;align=left;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="cad_layer" vertex="1">
           <mxGeometry x="50" y="1740" width="800" height="205" as="geometry" />
         </mxCell>
-        <mxCell id="cad_e1" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" edge="1" parent="cad_layer" source="c_import" target="c_format">
+        <mxCell id="cad_e1" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="cad_layer" source="c_import" target="c_format" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cad_e2" value="是" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" edge="1" parent="cad_layer" source="c_format" target="c_topology">
+        <mxCell id="cad_e2" value="是" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="cad_layer" source="c_format" target="c_topology" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="255" y="420" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="cad_e3" value="否：支持的其他显示格式" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" edge="1" parent="cad_layer" source="c_format" target="c_display">
+        <mxCell id="cad_e3" value="否：支持的其他显示格式" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="cad_layer" source="c_format" target="c_display" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="710" y="345" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="cad_e4" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" edge="1" parent="cad_layer" source="c_display" target="c_preview">
+        <mxCell id="cad_e4" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="cad_layer" source="c_display" target="c_preview" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cad_e5" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" edge="1" parent="cad_layer" source="c_topology" target="c_settings">
+        <mxCell id="cad_e5" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="cad_layer" source="c_topology" target="c_settings" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cad_e6" value="手动" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" edge="1" parent="cad_layer" source="c_settings" target="c_manual">
+        <mxCell id="cad_e6" value="手动" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="cad_layer" source="c_settings" target="c_manual" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cad_e7" value="AI 辅助" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" edge="1" parent="cad_layer" source="c_settings" target="c_ai">
+        <mxCell id="cad_e7" value="AI 辅助" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="cad_layer" source="c_settings" target="c_ai" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="465" y="765" />
@@ -363,13 +363,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="cad_e8" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" edge="1" parent="cad_layer" source="c_ai" target="c_candidates">
+        <mxCell id="cad_e8" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="cad_layer" source="c_ai" target="c_candidates" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cad_e9" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" edge="1" parent="cad_layer" source="c_candidates" target="c_confirm">
+        <mxCell id="cad_e9" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="cad_layer" source="c_candidates" target="c_confirm" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cad_e10" value="是" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" edge="1" parent="cad_layer" source="c_confirm" target="c_assign">
+        <mxCell id="cad_e10" value="是" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="cad_layer" source="c_confirm" target="c_assign" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="695" y="1330" />
@@ -377,7 +377,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="cad_e11" value="否：补充 / 重选；取消则返回界面" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;dashed=1;" edge="1" parent="cad_layer" source="c_confirm" target="c_candidates">
+        <mxCell id="cad_e11" value="否：补充 / 重选；取消则返回界面" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;dashed=1;" parent="cad_layer" source="c_confirm" target="c_candidates" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="930" y="1225" />
@@ -385,17 +385,17 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="cad_e12" value="应用成功" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" edge="1" parent="cad_layer" source="c_manual" target="c_assign">
+        <mxCell id="cad_e12" value="应用成功" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="cad_layer" source="c_manual" target="c_assign" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="230" y="1330" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="cad_e13" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" edge="1" parent="cad_layer" source="c_assign" target="c_return">
+        <mxCell id="cad_e13" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="cad_layer" source="c_assign" target="c_return" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cad_e14" value="点击 Run Solver" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;dashed=1;" edge="1" parent="cad_layer" source="c_return" target="c_prepare">
+        <mxCell id="cad_e14" value="点击 Run Solver" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;dashed=1;" parent="cad_layer" source="c_return" target="c_prepare" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="990" y="1615" />
@@ -403,7 +403,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="cad_e15" value="仅生成 / 预览网格" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;dashed=1;" edge="1" parent="cad_layer" source="c_return" target="c_mesh">
+        <mxCell id="cad_e15" value="仅生成 / 预览网格" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;dashed=1;" parent="cad_layer" source="c_return" target="c_mesh" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1030" y="1615" />
@@ -411,13 +411,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="cad_e16" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" edge="1" parent="cad_layer" source="c_prepare" target="c_valid">
+        <mxCell id="cad_e16" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="cad_layer" source="c_prepare" target="c_valid" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cad_e17" value="是" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" edge="1" parent="cad_layer" source="c_valid" target="c_dirty">
+        <mxCell id="cad_e17" value="是" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="cad_layer" source="c_valid" target="c_dirty" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cad_e18" value="否" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" edge="1" parent="cad_layer" source="c_valid" target="c_fail">
+        <mxCell id="cad_e18" value="否" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="cad_layer" source="c_valid" target="c_fail" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1780" y="395" />
@@ -425,10 +425,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="cad_e19" value="是" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" edge="1" parent="cad_layer" source="c_dirty" target="c_mesh">
+        <mxCell id="cad_e19" value="是" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="cad_layer" source="c_dirty" target="c_mesh" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cad_e20" value="否：复用已有网格" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" edge="1" parent="cad_layer" source="c_dirty" target="c_exportgate">
+        <mxCell id="cad_e20" value="否：复用已有网格" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="cad_layer" source="c_dirty" target="c_exportgate" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1630" y="635" />
@@ -437,13 +437,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="cad_e21" value="生成成功" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" edge="1" parent="cad_layer" source="c_mesh" target="c_meshstate">
+        <mxCell id="cad_e21" value="生成成功" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="cad_layer" source="c_mesh" target="c_meshstate" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cad_e22" value="生成失败" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" edge="1" parent="cad_layer" source="c_mesh" target="c_fail">
+        <mxCell id="cad_e22" value="生成失败" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="cad_layer" source="c_mesh" target="c_fail" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cad_e23" value="单独生成：回到预览" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;dashed=1;" edge="1" parent="cad_layer" source="c_meshstate" target="c_return">
+        <mxCell id="cad_e23" value="单独生成：回到预览" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;dashed=1;" parent="cad_layer" source="c_meshstate" target="c_return" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="970" y="1087" />
@@ -452,20 +452,20 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="cad_e24" value="由运行流程触发" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" edge="1" parent="cad_layer" source="c_meshstate" target="c_exportgate">
+        <mxCell id="cad_e24" value="由运行流程触发" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="cad_layer" source="c_meshstate" target="c_exportgate" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cad_e25" value="检查 / 写出失败" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" edge="1" parent="cad_layer" source="c_exportgate" target="c_fail">
+        <mxCell id="cad_e25" value="检查 / 写出失败" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="cad_layer" source="c_exportgate" target="c_fail" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1770" y="1297" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="cad_e26" value="通过" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" edge="1" parent="cad_layer" source="c_exportgate" target="c_write">
+        <mxCell id="cad_e26" value="通过" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="cad_layer" source="c_exportgate" target="c_write" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cad_e27" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" edge="1" parent="cad_layer" source="c_write" target="c_done">
+        <mxCell id="cad_e27" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="cad_layer" source="c_write" target="c_done" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
