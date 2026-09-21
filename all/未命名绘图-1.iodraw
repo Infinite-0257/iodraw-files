@@ -279,7 +279,7 @@
         <mxCell id="jvQAVXSHA2rTicbOk-mt-7" value="删除计算记录，计算结果，暂存文件为空" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="1">
           <mxGeometry x="2070" y="2775" width="500" height="115" as="geometry" />
         </mxCell>
-        <mxCell id="jvQAVXSHA2rTicbOk-mt-9" value="将计算结果暂存文件" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="1">
+        <mxCell id="jvQAVXSHA2rTicbOk-mt-9" value="将计算结果暂存文件&#xa;(若暂存文件中已有计算结果，则进行覆盖)" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="1">
           <mxGeometry x="2070" y="2405" width="500" height="115" as="geometry" />
         </mxCell>
       </root>
