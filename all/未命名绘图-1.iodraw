@@ -83,7 +83,7 @@
           <mxGeometry x="1340" y="2560" width="490" height="105" as="geometry" />
         </mxCell>
         <mxCell id="m_note" value="当前保存行为&#xa;• 根目录固定文件会被后续运行复用 / 覆写。&#xa;• 尚未实现独立运行目录和两次结果轮换。&#xa;• 重启时为空视图，不自动恢复上一结果。&#xa;• 物理校验、工程报告尚未接入此 GUI 闭环；&#xa;  Report 视图当前为占位。" style="shape=note;size=20;fillColor=#fff2cc;strokeColor=#d6b656;align=left;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
-          <mxGeometry x="1360" y="910" width="510" height="250" as="geometry" />
+          <mxGeometry x="-820" y="2070" width="510" height="250" as="geometry" />
         </mxCell>
         <mxCell id="m_errnote" value="通用异常处理&#xa;导入、配置、网格或导出出错时，提示错误，&#xa;停止当前动作，用户修正后重新操作。" style="shape=note;size=20;fillColor=#fff2cc;strokeColor=#d6b656;align=left;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
           <mxGeometry x="-750" y="1890" width="460" height="120" as="geometry" />
