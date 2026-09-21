@@ -258,7 +258,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="cad" name="02 CAD 建模与求解输入准备">
-    <mxGraphModel dx="1426" dy="775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1940" pageHeight="2010" math="0" shadow="0">
+    <mxGraphModel dx="3565" dy="1938" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1940" pageHeight="2010" math="0" shadow="0">
       <root>
         <mxCell id="cad_root" />
         <mxCell id="cad_layer" parent="cad_root" />
