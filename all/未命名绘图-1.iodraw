@@ -86,7 +86,7 @@
           <mxGeometry x="650" y="2585" width="490" height="70" as="geometry" />
         </mxCell>
         <mxCell id="m_close" value="关闭软件&#xa;内存中的模型、网格及状态结束&#xa;已有磁盘文件继续留在原路径" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
-          <mxGeometry x="1340" y="2560" width="490" height="105" as="geometry" />
+          <mxGeometry x="650" y="2780" width="490" height="105" as="geometry" />
         </mxCell>
         <mxCell id="m_note" value="当前保存行为&#xa;• 根目录固定文件会被后续运行复用 / 覆写。&#xa;• 尚未实现独立运行目录和两次结果轮换。&#xa;• 重启时为空视图，不自动恢复上一结果。&#xa;• 物理校验、工程报告尚未接入此 GUI 闭环；&#xa;  Report 视图当前为占位。" style="shape=note;size=20;fillColor=#fff2cc;strokeColor=#d6b656;align=left;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
           <mxGeometry x="50" y="2250" width="510" height="250" as="geometry" />
