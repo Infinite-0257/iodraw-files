@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" compressed="false" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36 Edg/152.0.0.0" version="24.7.17" pages="3">
   <diagram id="main" name="01 当前软件主流程">
-    <mxGraphModel dx="9507" dy="5167" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1940" pageHeight="2780" math="0" shadow="0">
+    <mxGraphModel dx="4753" dy="2583" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1940" pageHeight="2780" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -264,11 +264,14 @@
         </mxCell>
         <mxCell id="jvQAVXSHA2rTicbOk-mt-6" value="根据计算记录中的内容，进行计算" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jvQAVXSHA2rTicbOk-mt-5">
           <mxGeometry x="0.1988" y="9" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-73" y="-9" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="5vZWpeuJr3HITQHxux4a-1" value="将计算使用的配置、输入和结果作为一套计算记录，保存进暂存文件(若暂存文件中已有计算记录，则进行覆盖)" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="1">
           <mxGeometry x="2060" y="930" width="500" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="jvQAVXSHA2rTicbOk-mt-7" value="将计算使用的配置、输入和结果作为一套计算记录，保存进暂存文件(若暂存文件中已有计算记录，则进行覆盖)" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="2070" y="940" width="500" height="115" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
