@@ -85,6 +85,9 @@
         <mxCell id="m_next" value="继续查看 / 修改配置并再次计算 / 关闭" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
           <mxGeometry x="650" y="2585" width="490" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="jvQAVXSHA2rTicbOk-mt-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m_close" target="jvQAVXSHA2rTicbOk-mt-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="m_close" value="关闭软件&#xa;内存中的模型、网格及状态结束&#xa;已有磁盘文件继续留在原路径" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
           <mxGeometry x="650" y="2780" width="490" height="105" as="geometry" />
         </mxCell>
@@ -271,7 +274,7 @@
           <mxGeometry x="2060" y="930" width="500" height="115" as="geometry" />
         </mxCell>
         <mxCell id="jvQAVXSHA2rTicbOk-mt-7" value="删除计算记录，暂存文件为空" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="1">
-          <mxGeometry x="2060" y="2770" width="500" height="115" as="geometry" />
+          <mxGeometry x="2070" y="2775" width="500" height="115" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
