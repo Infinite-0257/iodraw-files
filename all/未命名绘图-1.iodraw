@@ -258,6 +258,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="jvQAVXSHA2rTicbOk-mt-6" value="根据计算记录中的内容，进行计算" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jvQAVXSHA2rTicbOk-mt-5">
+          <mxGeometry x="0.1988" y="9" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="5vZWpeuJr3HITQHxux4a-1" value="将计算使用的配置、输入和结果作为一套计算记录，保存进暂存文件" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="1">
           <mxGeometry x="2370" y="930" width="500" height="115" as="geometry" />
         </mxCell>
