@@ -29,7 +29,7 @@
           <mxGeometry x="420" y="360" width="330" height="115" as="geometry" />
         </mxCell>
         <mxCell id="m_pre" value="运行可用预处理器&#xa;程序成功后，将生成的 input.dat&#xa;复制到项目根目录并加载" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
-          <mxGeometry x="790" y="360" width="330" height="115" as="geometry" />
+          <mxGeometry x="795" y="405" width="330" height="115" as="geometry" />
         </mxCell>
         <mxCell id="m_session" value="打开会话 .json&#xa;恢复材料、网格、求解及显示设置&#xa;不恢复 CAD、约束选区或结果文件" style="rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
           <mxGeometry x="1160" y="500" width="330" height="115" as="geometry" />
@@ -132,8 +132,8 @@
         <mxCell id="main_e6" value=".json" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="1" source="m_open" target="m_session" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="960" y="320" />
-              <mxPoint x="1325" y="320" />
+              <mxPoint x="960" y="340" />
+              <mxPoint x="1325" y="340" />
             </Array>
           </mxGeometry>
         </mxCell>
