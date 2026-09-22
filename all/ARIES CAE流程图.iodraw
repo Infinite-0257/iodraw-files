@@ -326,7 +326,7 @@
         <mxCell id="pup2LY9M3DN4ASrADGuB-10" value="打开工程&#xa;接着上次的工作继续做" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
           <mxGeometry x="614" y="365" width="206" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="pup2LY9M3DN4ASrADGuB-11" value="打开会话 .json&#xa;恢复材料、网格、求解及显示设置&#xa;不恢复 CAD、约束选区或结果文件" style="rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
+        <mxCell id="pup2LY9M3DN4ASrADGuB-11" value="导入几何&#xa;从零件形状开始建立分析" style="rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
           <mxGeometry x="787" y="470" width="330" height="115" as="geometry" />
         </mxCell>
         <mxCell id="pup2LY9M3DN4ASrADGuB-12" value="手动打开 .plt&#xa;直接进入结果解析&#xa;不经过本次求解状态检查" style="rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
@@ -426,12 +426,13 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pup2LY9M3DN4ASrADGuB-39" value=".json" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" edge="1" parent="pup2LY9M3DN4ASrADGuB-1" source="pup2LY9M3DN4ASrADGuB-7" target="pup2LY9M3DN4ASrADGuB-11">
+        <mxCell id="pup2LY9M3DN4ASrADGuB-39" value="STEP/STP/BREP" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" edge="1" parent="pup2LY9M3DN4ASrADGuB-1" source="pup2LY9M3DN4ASrADGuB-7" target="pup2LY9M3DN4ASrADGuB-11">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="717" y="290" />
               <mxPoint x="952" y="290" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pup2LY9M3DN4ASrADGuB-40" value=".plt" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" edge="1" parent="pup2LY9M3DN4ASrADGuB-1" source="pup2LY9M3DN4ASrADGuB-7" target="pup2LY9M3DN4ASrADGuB-12">
