@@ -295,7 +295,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="01.1 当前软件主流程 的副本" id="q1kGPTrqL-9Be9igUj_z">
-    <mxGraphModel dx="2437" dy="1507" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1940" pageHeight="2780" math="0" shadow="0">
+    <mxGraphModel dx="3965" dy="2338" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1940" pageHeight="2780" math="0" shadow="0">
       <root>
         <mxCell id="pup2LY9M3DN4ASrADGuB-0" />
         <mxCell id="pup2LY9M3DN4ASrADGuB-1" parent="pup2LY9M3DN4ASrADGuB-0" />
@@ -459,8 +459,8 @@
         <mxCell id="pup2LY9M3DN4ASrADGuB-44" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" edge="1" parent="pup2LY9M3DN4ASrADGuB-1" source="pup2LY9M3DN4ASrADGuB-11" target="pup2LY9M3DN4ASrADGuB-13">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="950" y="750" />
-              <mxPoint x="895" y="750" />
+              <mxPoint x="950" y="610" />
+              <mxPoint x="895" y="610" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -583,7 +583,7 @@
           <mxGeometry x="160" y="335.83000000000004" width="440" height="135" as="geometry" />
         </mxCell>
         <mxCell id="q-8w-l1Lf4INOttznGJh-5" value="新建临时工作区&#xa;将工程文件中含有的信息加载到临时工作区中" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
-          <mxGeometry x="1500" y="376.67" width="206" height="65" as="geometry" />
+          <mxGeometry x="1410" y="610" width="206" height="65" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
