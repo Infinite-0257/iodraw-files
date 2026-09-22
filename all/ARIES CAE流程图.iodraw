@@ -611,6 +611,9 @@
         <mxCell id="DhECXwNkiA2Bq2NcHUQ1-15" value="模型与配置快照、实际输入、中间文件、日志和运行状态&#xa;开始新计算时重建；运行期间专属于本次计算" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
           <mxGeometry x="2210" y="1680" width="420" height="65" as="geometry" />
         </mxCell>
+        <mxCell id="DhECXwNkiA2Bq2NcHUQ1-16" value="读取临时工作区中的模型及计算记录" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
+          <mxGeometry x="2170" y="965" width="300" height="65" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
