@@ -441,7 +441,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pup2LY9M3DN4ASrADGuB-39" value="STEP/STP/BREP" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" edge="1" parent="pup2LY9M3DN4ASrADGuB-1" source="pup2LY9M3DN4ASrADGuB-7" target="pup2LY9M3DN4ASrADGuB-11">
-          <mxGeometry x="-0.0535" relative="1" as="geometry">
+          <mxGeometry x="0.5745" y="-13" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="717" y="397" />
             </Array>
