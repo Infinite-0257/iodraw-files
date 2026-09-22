@@ -558,7 +558,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pup2LY9M3DN4ASrADGuB-65" value="读取临时工作区中的模型及计算记录" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
-          <mxGeometry x="2160" y="945" width="300" height="85" as="geometry" />
+          <mxGeometry x="2160" y="955" width="300" height="65" as="geometry" />
         </mxCell>
         <mxCell id="pup2LY9M3DN4ASrADGuB-66" value="删除计算记录，计算结果，暂存文件为空" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
           <mxGeometry x="2070" y="2775" width="500" height="115" as="geometry" />
@@ -573,7 +573,7 @@
           <mxGeometry x="2250" y="557.92" width="206" height="99.17" as="geometry" />
         </mxCell>
         <mxCell id="DhECXwNkiA2Bq2NcHUQ1-0" value="根据设置的参数内容&#xa;修改计算记录" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
-          <mxGeometry x="2240" y="792.92" width="206" height="99.17" as="geometry" />
+          <mxGeometry x="2240" y="805.01" width="206" height="74.99" as="geometry" />
         </mxCell>
         <mxCell id="DhECXwNkiA2Bq2NcHUQ1-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="pup2LY9M3DN4ASrADGuB-1" source="DhECXwNkiA2Bq2NcHUQ1-4" target="q-8w-l1Lf4INOttznGJh-5">
           <mxGeometry relative="1" as="geometry" />
