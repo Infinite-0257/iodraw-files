@@ -8,34 +8,34 @@
           <mxGeometry x="1940" y="880" width="770" height="2100" as="geometry" />
         </mxCell>
         <mxCell id="m_title" value="ARIES CAE｜当前软件运行主流程" style="text;html=0;fontSize=27;fontStyle=1;align=left;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="50" y="-110" width="1820" height="50" as="geometry" />
+          <mxGeometry x="50" y="-180" width="1820" height="50" as="geometry" />
         </mxCell>
         <mxCell id="m_subtitle" value="依据现有 GUI_PySide_PyVista 与 Source_Files；展示已实现逻辑。第 2 页展开 CAD 分支，第 3 页展开求解与状态检查。" style="text;html=0;fontSize=14;align=left;fontColor=#64748b;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="50" y="-52" width="1820" height="40" as="geometry" />
+          <mxGeometry x="50" y="-122" width="1820" height="40" as="geometry" />
         </mxCell>
         <mxCell id="m_start" value="启动 ARIES CAE" style="ellipse;fillColor=#d5e8d4;strokeColor=#82b366;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
-          <mxGeometry x="780" y="10" width="360" height="55" as="geometry" />
+          <mxGeometry x="780" y="-60" width="360" height="55" as="geometry" />
         </mxCell>
         <mxCell id="m_init" value="启动脚本 / main.py → QApplication → MainWindow&#xa;加载默认设置、AI 设置和文件列表&#xa;初始化空视图；不恢复上次网格或结果" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
-          <mxGeometry x="660" y="115" width="600" height="110" as="geometry" />
+          <mxGeometry x="660" y="45" width="600" height="110" as="geometry" />
         </mxCell>
         <mxCell id="m_open" value="用户选择输入 / 打开文件" style="rhombus;fillColor=#fff2cc;strokeColor=#d6b656;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
-          <mxGeometry x="790" y="285" width="340" height="80" as="geometry" />
+          <mxGeometry x="790" y="215" width="340" height="80" as="geometry" />
         </mxCell>
         <mxCell id="m_cad" value="CAD / 表面模型&#xa;导入与显示；可手动或 AI 设置&#xa;详见第 2 页「建模段」" style="shape=process;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
-          <mxGeometry x="50" y="430" width="330" height="115" as="geometry" />
+          <mxGeometry x="50" y="360" width="330" height="115" as="geometry" />
         </mxCell>
         <mxCell id="m_dat" value="打开已有 .dat&#xa;解析节点、单元和边界数据&#xa;构造并显示 PyVista 网格" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
-          <mxGeometry x="420" y="430" width="330" height="115" as="geometry" />
+          <mxGeometry x="420" y="360" width="330" height="115" as="geometry" />
         </mxCell>
         <mxCell id="m_pre" value="运行可用预处理器&#xa;程序成功后，将生成的 input.dat&#xa;复制到项目根目录并加载" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
-          <mxGeometry x="790" y="430" width="330" height="115" as="geometry" />
+          <mxGeometry x="790" y="360" width="330" height="115" as="geometry" />
         </mxCell>
         <mxCell id="m_session" value="打开会话 .json&#xa;恢复材料、网格、求解及显示设置&#xa;不恢复 CAD、约束选区或结果文件" style="rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
-          <mxGeometry x="1160" y="430" width="330" height="115" as="geometry" />
+          <mxGeometry x="1160" y="500" width="330" height="115" as="geometry" />
         </mxCell>
         <mxCell id="m_plt" value="手动打开 .plt&#xa;直接进入结果解析&#xa;不经过本次求解状态检查" style="rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
-          <mxGeometry x="1530" y="430" width="330" height="115" as="geometry" />
+          <mxGeometry x="1540" y="520" width="330" height="115" as="geometry" />
         </mxCell>
         <mxCell id="m_ready" value="等待用户操作&#xa;检查 / 修改设置、选择区域、查看模型&#xa;文件导入本身不自动执行求解" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
           <mxGeometry x="600" y="790" width="590" height="105" as="geometry" />
@@ -113,16 +113,16 @@
         <mxCell id="main_e3" value="CAD / 表面文件" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="1" source="m_open" target="m_cad" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="960" y="390" />
-              <mxPoint x="215" y="390" />
+              <mxPoint x="960" y="320" />
+              <mxPoint x="215" y="320" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="main_e4" value=".dat" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="1" source="m_open" target="m_dat" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="960" y="390" />
-              <mxPoint x="585" y="390" />
+              <mxPoint x="960" y="320" />
+              <mxPoint x="585" y="320" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -132,16 +132,16 @@
         <mxCell id="main_e6" value=".json" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="1" source="m_open" target="m_session" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="960" y="390" />
-              <mxPoint x="1325" y="390" />
+              <mxPoint x="960" y="320" />
+              <mxPoint x="1325" y="320" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="main_e7" value=".plt" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="1" source="m_open" target="m_plt" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="960" y="390" />
-              <mxPoint x="1695" y="390" />
+              <mxPoint x="960" y="320" />
+              <mxPoint x="1695" y="320" />
             </Array>
           </mxGeometry>
         </mxCell>
