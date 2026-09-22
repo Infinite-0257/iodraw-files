@@ -435,7 +435,7 @@
         <mxCell id="pup2LY9M3DN4ASrADGuB-42" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" edge="1" parent="pup2LY9M3DN4ASrADGuB-1" source="pup2LY9M3DN4ASrADGuB-9" target="pup2LY9M3DN4ASrADGuB-13">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="585" y="745" />
+              <mxPoint x="460" y="745" />
               <mxPoint x="895" y="745" />
             </Array>
           </mxGeometry>
