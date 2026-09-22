@@ -295,7 +295,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="01.1 当前软件主流程 的副本" id="q1kGPTrqL-9Be9igUj_z">
-    <mxGraphModel dx="3965" dy="2338" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1940" pageHeight="2780" math="0" shadow="0">
+    <mxGraphModel dx="4474" dy="2614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1940" pageHeight="2780" math="0" shadow="0">
       <root>
         <mxCell id="pup2LY9M3DN4ASrADGuB-0" />
         <mxCell id="pup2LY9M3DN4ASrADGuB-1" parent="pup2LY9M3DN4ASrADGuB-0" />
@@ -309,16 +309,16 @@
           <mxGeometry x="-190" y="-172" width="1820" height="40" as="geometry" />
         </mxCell>
         <mxCell id="pup2LY9M3DN4ASrADGuB-5" value="启动 ARIES CAE" style="ellipse;fillColor=#d5e8d4;strokeColor=#82b366;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
-          <mxGeometry x="537" y="-110" width="360" height="55" as="geometry" />
+          <mxGeometry x="517" y="100" width="360" height="55" as="geometry" />
         </mxCell>
         <mxCell id="pup2LY9M3DN4ASrADGuB-6" value="启动脚本 / main.py → QApplication → MainWindow&#xa;加载默认设置、AI 设置和文件列表&#xa;初始化空视图；不恢复上次网格或结果" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
-          <mxGeometry x="497" y="-5" width="440" height="110" as="geometry" />
+          <mxGeometry x="477" y="205" width="440" height="110" as="geometry" />
         </mxCell>
         <mxCell id="q-8w-l1Lf4INOttznGJh-1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="pup2LY9M3DN4ASrADGuB-1" source="pup2LY9M3DN4ASrADGuB-7" target="q-8w-l1Lf4INOttznGJh-0">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="717" y="310" />
-              <mxPoint x="380" y="310" />
+              <mxPoint x="697" y="520" />
+              <mxPoint x="360" y="520" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -328,7 +328,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pup2LY9M3DN4ASrADGuB-7" value="用户选择输入 / 打开文件" style="rhombus;fillColor=#fff2cc;strokeColor=#d6b656;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
-          <mxGeometry x="547" y="165" width="340" height="80" as="geometry" />
+          <mxGeometry x="527" y="375" width="340" height="80" as="geometry" />
         </mxCell>
         <mxCell id="0onikx6GAU6ZD2DBXQcv-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="pup2LY9M3DN4ASrADGuB-1" source="pup2LY9M3DN4ASrADGuB-9" target="pup2LY9M3DN4ASrADGuB-16">
           <mxGeometry relative="1" as="geometry">
@@ -339,16 +339,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pup2LY9M3DN4ASrADGuB-9" value="打开已有 .dat&#xa;解析节点、单元和边界数据" style="rounded=1;fillColor=#f8cecc;strokeColor=#b85450;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
-          <mxGeometry x="-80" y="365" width="220" height="76.67" as="geometry" />
+          <mxGeometry x="-100" y="575" width="220" height="76.67" as="geometry" />
         </mxCell>
         <mxCell id="pup2LY9M3DN4ASrADGuB-10" value="打开工程&#xa;接着上次的工作继续做" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
-          <mxGeometry x="614" y="365" width="206" height="65" as="geometry" />
+          <mxGeometry x="594" y="575" width="206" height="65" as="geometry" />
         </mxCell>
         <mxCell id="pup2LY9M3DN4ASrADGuB-11" value="导入几何&#xa;从零件形状开始建立分析" style="rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
-          <mxGeometry x="830" y="365" width="216" height="65" as="geometry" />
+          <mxGeometry x="810" y="575" width="216" height="65" as="geometry" />
         </mxCell>
         <mxCell id="pup2LY9M3DN4ASrADGuB-12" value="直接进入结果解析" style="rounded=1;fillColor=#f8cecc;strokeColor=#b85450;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
-          <mxGeometry x="-180" y="290" width="170" height="60" as="geometry" />
+          <mxGeometry x="-200" y="500" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pup2LY9M3DN4ASrADGuB-13" value="等待用户操作&#xa;检查 / 修改设置、选择区域、查看模型&#xa;文件导入本身不自动执行求解" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
           <mxGeometry x="600" y="790" width="590" height="105" as="geometry" />
@@ -426,8 +426,8 @@
         <mxCell id="pup2LY9M3DN4ASrADGuB-37" value=".dat" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" edge="1" parent="pup2LY9M3DN4ASrADGuB-1" source="pup2LY9M3DN4ASrADGuB-7" target="pup2LY9M3DN4ASrADGuB-9">
           <mxGeometry x="0.0062" relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="717" y="290" />
-              <mxPoint x="120" y="290" />
+              <mxPoint x="697" y="500" />
+              <mxPoint x="100" y="500" />
             </Array>
             <mxPoint y="-1" as="offset" />
           </mxGeometry>
@@ -440,8 +440,8 @@
         <mxCell id="pup2LY9M3DN4ASrADGuB-39" value="STEP/STP/BREP" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" edge="1" parent="pup2LY9M3DN4ASrADGuB-1" source="pup2LY9M3DN4ASrADGuB-7" target="pup2LY9M3DN4ASrADGuB-11">
           <mxGeometry x="-0.0535" relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="717" y="290" />
-              <mxPoint x="952" y="290" />
+              <mxPoint x="697" y="500" />
+              <mxPoint x="932" y="500" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
@@ -449,7 +449,7 @@
         <mxCell id="pup2LY9M3DN4ASrADGuB-40" value=".plt" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" edge="1" parent="pup2LY9M3DN4ASrADGuB-1" source="pup2LY9M3DN4ASrADGuB-7" target="pup2LY9M3DN4ASrADGuB-12">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-100" y="205" />
+              <mxPoint x="-120" y="415" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -580,7 +580,7 @@
           <mxGeometry x="2075" y="2000" width="500" height="115" as="geometry" />
         </mxCell>
         <mxCell id="q-8w-l1Lf4INOttznGJh-0" value="导入网格&#xa;使用外部已经划好的网格&#xa;（边界条件如何设置？&#xa;在CAD中设置：CAD与网格直接的匹配问题&#xa;在网格中设置：需独立增加“网格上设置边界条件”的程序）" style="rounded=1;fillColor=#e51400;strokeColor=#B20000;whiteSpace=wrap;html=0;fontSize=15;spacing=8;fontColor=#ffffff;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
-          <mxGeometry x="160" y="335.83000000000004" width="440" height="135" as="geometry" />
+          <mxGeometry x="140" y="545.83" width="440" height="135" as="geometry" />
         </mxCell>
         <mxCell id="q-8w-l1Lf4INOttznGJh-5" value="新建临时工作区&#xa;将工程文件中含有的信息加载到临时工作区中" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
           <mxGeometry x="1410" y="610" width="206" height="65" as="geometry" />
