@@ -330,15 +330,8 @@
         <mxCell id="pup2LY9M3DN4ASrADGuB-7" value="用户选择输入 / 打开文件" style="rhombus;fillColor=#fff2cc;strokeColor=#d6b656;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
           <mxGeometry x="527" y="375" width="340" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="0onikx6GAU6ZD2DBXQcv-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="pup2LY9M3DN4ASrADGuB-1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-200" y="797" as="sourcePoint" />
-            <mxPoint x="485" y="1209.5" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="-200" y="740" />
-              <mxPoint x="-200" y="1210" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="q-8w-l1Lf4INOttznGJh-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="pup2LY9M3DN4ASrADGuB-1" source="pup2LY9M3DN4ASrADGuB-9" target="pup2LY9M3DN4ASrADGuB-16">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pup2LY9M3DN4ASrADGuB-9" value="打开已有 .dat&#xa;解析节点、单元和边界数据" style="rounded=1;fillColor=#f8cecc;strokeColor=#b85450;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
           <mxGeometry x="-100" y="575" width="220" height="76.67" as="geometry" />
