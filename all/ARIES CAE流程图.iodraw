@@ -504,10 +504,12 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pup2LY9M3DN4ASrADGuB-55" value="手动加载" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;dashed=1;" edge="1" parent="pup2LY9M3DN4ASrADGuB-1" source="pup2LY9M3DN4ASrADGuB-12" target="pup2LY9M3DN4ASrADGuB-25">
-          <mxGeometry relative="1" as="geometry">
+          <mxGeometry x="0.0186" y="10" relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1570" y="1957" />
+              <mxPoint x="-40" y="610" />
+              <mxPoint x="-40" y="1957" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pup2LY9M3DN4ASrADGuB-56" value="解析成功" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" edge="1" parent="pup2LY9M3DN4ASrADGuB-1" source="pup2LY9M3DN4ASrADGuB-25" target="pup2LY9M3DN4ASrADGuB-26">
