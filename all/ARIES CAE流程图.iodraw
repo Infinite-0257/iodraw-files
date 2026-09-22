@@ -334,7 +334,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pup2LY9M3DN4ASrADGuB-9" value="打开已有 .dat&#xa;解析节点、单元和边界数据" style="rounded=1;fillColor=#f8cecc;strokeColor=#b85450;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
-          <mxGeometry x="-20" y="455" width="220" height="76.67" as="geometry" />
+          <mxGeometry x="-30" y="368.33" width="220" height="76.67" as="geometry" />
         </mxCell>
         <mxCell id="pup2LY9M3DN4ASrADGuB-10" value="打开工程&#xa;接着上次的工作继续做" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
           <mxGeometry x="614" y="365" width="206" height="65" as="geometry" />
@@ -343,7 +343,7 @@
           <mxGeometry x="830" y="365" width="216" height="65" as="geometry" />
         </mxCell>
         <mxCell id="pup2LY9M3DN4ASrADGuB-12" value="直接进入结果解析" style="rounded=1;fillColor=#f8cecc;strokeColor=#b85450;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
-          <mxGeometry x="-120" y="367.5" width="170" height="60" as="geometry" />
+          <mxGeometry x="-130" y="290" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pup2LY9M3DN4ASrADGuB-13" value="等待用户操作&#xa;检查 / 修改设置、选择区域、查看模型&#xa;文件导入本身不自动执行求解" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
           <mxGeometry x="600" y="790" width="590" height="105" as="geometry" />
