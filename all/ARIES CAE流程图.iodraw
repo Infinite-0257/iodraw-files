@@ -352,7 +352,7 @@
         <mxCell id="pup2LY9M3DN4ASrADGuB-12" value="直接进入结果解析" style="rounded=1;fillColor=#f8cecc;strokeColor=#b85450;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
           <mxGeometry x="-200" y="500" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="pup2LY9M3DN4ASrADGuB-13" value="仿真参数设置&#xa;可手动或 AI 设置&#xa;详见第 2 页「建模段」" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
+        <mxCell id="pup2LY9M3DN4ASrADGuB-13" value="仿真参数设置&#xa;可手动或 AI 设置&#xa;详见第 2 页「建模段」" style="rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
           <mxGeometry x="770" y="790" width="250" height="105" as="geometry" />
         </mxCell>
         <mxCell id="pup2LY9M3DN4ASrADGuB-14" value="可选：保存 / 另存会话 JSON&#xa;写入程序路径、显示选项、材料、分析、&#xa;网格、求解设置及输出字段&#xa;不打包模型、边界条件或计算结果" style="rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
