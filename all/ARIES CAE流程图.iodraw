@@ -150,8 +150,8 @@
         <mxCell id="main_e8" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="1" source="m_cad" target="m_ready" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="215" y="740" />
-              <mxPoint x="895" y="740" />
+              <mxPoint x="395" y="770" />
+              <mxPoint x="895" y="770" />
             </Array>
           </mxGeometry>
         </mxCell>
