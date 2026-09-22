@@ -342,10 +342,10 @@
           <mxGeometry x="-80" y="365" width="220" height="76.67" as="geometry" />
         </mxCell>
         <mxCell id="pup2LY9M3DN4ASrADGuB-10" value="打开工程&#xa;接着上次的工作继续做" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
-          <mxGeometry x="800" y="470" width="206" height="65" as="geometry" />
+          <mxGeometry x="614" y="365" width="206" height="65" as="geometry" />
         </mxCell>
         <mxCell id="pup2LY9M3DN4ASrADGuB-11" value="导入几何&#xa;从零件形状开始建立分析" style="rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
-          <mxGeometry x="800" y="365" width="216" height="65" as="geometry" />
+          <mxGeometry x="830" y="365" width="216" height="65" as="geometry" />
         </mxCell>
         <mxCell id="pup2LY9M3DN4ASrADGuB-12" value="直接进入结果解析" style="rounded=1;fillColor=#f8cecc;strokeColor=#b85450;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
           <mxGeometry x="-180" y="290" width="170" height="60" as="geometry" />
@@ -433,17 +433,15 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pup2LY9M3DN4ASrADGuB-38" value="ARIES 自己的工程格式" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" edge="1" parent="pup2LY9M3DN4ASrADGuB-1" source="pup2LY9M3DN4ASrADGuB-7" target="pup2LY9M3DN4ASrADGuB-10">
-          <mxGeometry x="0.7059" relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="717" y="502" />
-            </Array>
+          <mxGeometry x="0.3648" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pup2LY9M3DN4ASrADGuB-39" value="STEP/STP/BREP" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" edge="1" parent="pup2LY9M3DN4ASrADGuB-1" source="pup2LY9M3DN4ASrADGuB-7" target="pup2LY9M3DN4ASrADGuB-11">
           <mxGeometry x="-0.0535" relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="717" y="397" />
+              <mxPoint x="717" y="290" />
+              <mxPoint x="952" y="290" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
@@ -583,6 +581,12 @@
         </mxCell>
         <mxCell id="q-8w-l1Lf4INOttznGJh-0" value="导入网格&#xa;使用外部已经划好的网格&#xa;（边界条件如何设置？&#xa;在CAD中设置：CAD与网格直接的匹配问题&#xa;在网格中设置：需独立增加“网格上设置边界条件”的程序）" style="rounded=1;fillColor=#e51400;strokeColor=#B20000;whiteSpace=wrap;html=0;fontSize=15;spacing=8;fontColor=#ffffff;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
           <mxGeometry x="160" y="335.83000000000004" width="440" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="q-8w-l1Lf4INOttznGJh-5" value="打开工程&#xa;接着上次的工作继续做" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
+          <mxGeometry x="624" y="375" width="206" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="q-8w-l1Lf4INOttznGJh-6" value="打开工程&#xa;接着上次的工作继续做" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
+          <mxGeometry x="634" y="385" width="206" height="65" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
