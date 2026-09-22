@@ -585,19 +585,19 @@
           <mxGeometry x="590" y="557.92" width="460" height="102.08" as="geometry" />
         </mxCell>
         <mxCell id="DhECXwNkiA2Bq2NcHUQ1-7" value="当前模型" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
-          <mxGeometry x="2900" y="1780" width="200" height="65" as="geometry" />
+          <mxGeometry x="3030" y="1780" width="180" height="65" as="geometry" />
         </mxCell>
         <mxCell id="DhECXwNkiA2Bq2NcHUQ1-8" value="临时工作区" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
-          <mxGeometry x="2900" y="1690" width="200" height="65" as="geometry" />
+          <mxGeometry x="3030" y="1690" width="180" height="65" as="geometry" />
         </mxCell>
         <mxCell id="DhECXwNkiA2Bq2NcHUQ1-9" value="计算配置记录" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
-          <mxGeometry x="2901" y="1860" width="200" height="65" as="geometry" />
+          <mxGeometry x="3031" y="1860" width="180" height="65" as="geometry" />
         </mxCell>
         <mxCell id="DhECXwNkiA2Bq2NcHUQ1-10" value="临时计算过程" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
-          <mxGeometry x="2900" y="1940" width="200" height="65" as="geometry" />
+          <mxGeometry x="3030" y="1940" width="180" height="65" as="geometry" />
         </mxCell>
         <mxCell id="DhECXwNkiA2Bq2NcHUQ1-11" value="计算结果" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
-          <mxGeometry x="2900" y="2020" width="200" height="65" as="geometry" />
+          <mxGeometry x="3030" y="2020" width="180" height="65" as="geometry" />
         </mxCell>
         <mxCell id="DhECXwNkiA2Bq2NcHUQ1-12" value="最近一次成功计算的完整模型、配置、输入、结果&#xa;新计算成功且结果检查通过后，整体替换" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
           <mxGeometry x="3220" y="2020" width="420" height="65" as="geometry" />
