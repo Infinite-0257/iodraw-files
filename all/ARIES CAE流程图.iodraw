@@ -600,7 +600,7 @@
           <mxGeometry x="2240" y="792.92" width="206" height="99.17" as="geometry" />
         </mxCell>
         <mxCell id="DhECXwNkiA2Bq2NcHUQ1-4" value="临时工作区&lt;div&gt;（包含当前模型，计算记录，计算结果）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeWidth=3;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
-          <mxGeometry x="1938" y="520" width="770" height="2450" as="geometry" />
+          <mxGeometry x="1630" y="620" width="770" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
