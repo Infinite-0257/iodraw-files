@@ -582,7 +582,7 @@
         <mxCell id="q-8w-l1Lf4INOttznGJh-0" value="导入网格&#xa;使用外部已经划好的网格&#xa;（边界条件如何设置？&#xa;在CAD中设置：CAD与网格直接的匹配问题&#xa;在网格中设置：需独立增加“网格上设置边界条件”的程序）" style="rounded=1;fillColor=#e51400;strokeColor=#B20000;whiteSpace=wrap;html=0;fontSize=15;spacing=8;fontColor=#ffffff;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
           <mxGeometry x="160" y="335.83000000000004" width="440" height="135" as="geometry" />
         </mxCell>
-        <mxCell id="q-8w-l1Lf4INOttznGJh-5" value="打开工程&#xa;接着上次的工作继续做" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
+        <mxCell id="q-8w-l1Lf4INOttznGJh-5" value="新建临时工作区&#xa;将工程文件中含有的信息加载到临时工作区中" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
           <mxGeometry x="614" y="460" width="206" height="65" as="geometry" />
         </mxCell>
         <mxCell id="q-8w-l1Lf4INOttznGJh-6" value="打开工程&#xa;接着上次的工作继续做" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
