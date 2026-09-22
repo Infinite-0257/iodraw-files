@@ -554,11 +554,11 @@
         </mxCell>
         <mxCell id="pup2LY9M3DN4ASrADGuB-64" value="根据计算记录中的内容，进行计算" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="pup2LY9M3DN4ASrADGuB-63">
           <mxGeometry x="0.1988" y="9" relative="1" as="geometry">
-            <mxPoint x="-73" y="-9" as="offset" />
+            <mxPoint x="-192" y="-9" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pup2LY9M3DN4ASrADGuB-65" value="读取临时工作区中的模型及计算记录&#xa;" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
-          <mxGeometry x="2060" y="930" width="500" height="115" as="geometry" />
+          <mxGeometry x="2160" y="930" width="300" height="115" as="geometry" />
         </mxCell>
         <mxCell id="pup2LY9M3DN4ASrADGuB-66" value="删除计算记录，计算结果，暂存文件为空" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
           <mxGeometry x="2070" y="2775" width="500" height="115" as="geometry" />
