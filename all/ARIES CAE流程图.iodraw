@@ -427,8 +427,7 @@
         <mxCell id="pup2LY9M3DN4ASrADGuB-40" value=".plt" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" edge="1" parent="pup2LY9M3DN4ASrADGuB-1" source="pup2LY9M3DN4ASrADGuB-7" target="pup2LY9M3DN4ASrADGuB-12">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="717" y="320" />
-              <mxPoint x="135" y="320" />
+              <mxPoint x="135" y="205" />
             </Array>
           </mxGeometry>
         </mxCell>
