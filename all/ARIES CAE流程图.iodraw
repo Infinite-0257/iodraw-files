@@ -557,7 +557,7 @@
             <mxPoint x="-73" y="-9" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pup2LY9M3DN4ASrADGuB-65" value="读取临时工作区中的模型" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
+        <mxCell id="pup2LY9M3DN4ASrADGuB-65" value="读取临时工作区中的模型及计算记录&#xa;" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
           <mxGeometry x="2060" y="930" width="500" height="115" as="geometry" />
         </mxCell>
         <mxCell id="pup2LY9M3DN4ASrADGuB-66" value="删除计算记录，计算结果，暂存文件为空" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
