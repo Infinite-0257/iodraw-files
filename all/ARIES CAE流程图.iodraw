@@ -295,7 +295,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="01.1 当前软件主流程 的副本" id="q1kGPTrqL-9Be9igUj_z">
-    <mxGraphModel dx="1826" dy="1175" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1940" pageHeight="2780" math="0" shadow="0">
+    <mxGraphModel dx="2437" dy="1507" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1940" pageHeight="2780" math="0" shadow="0">
       <root>
         <mxCell id="pup2LY9M3DN4ASrADGuB-0" />
         <mxCell id="pup2LY9M3DN4ASrADGuB-1" parent="pup2LY9M3DN4ASrADGuB-0" />
@@ -316,9 +316,6 @@
         </mxCell>
         <mxCell id="pup2LY9M3DN4ASrADGuB-7" value="用户选择输入 / 打开文件" style="rhombus;fillColor=#fff2cc;strokeColor=#d6b656;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
           <mxGeometry x="547" y="165" width="340" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="pup2LY9M3DN4ASrADGuB-8" value="打开工程&#xa;接着上次的工作继续做&#xa;ARIES 自己的完整工程格式" style="shape=process;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
-          <mxGeometry x="-13" y="595" width="330" height="115" as="geometry" />
         </mxCell>
         <mxCell id="pup2LY9M3DN4ASrADGuB-9" value="打开已有 .dat&#xa;解析节点、单元和边界数据&#xa;构造并显示 PyVista 网格" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
           <mxGeometry x="317" y="470" width="330" height="115" as="geometry" />
@@ -405,12 +402,13 @@
         <mxCell id="pup2LY9M3DN4ASrADGuB-35" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" edge="1" parent="pup2LY9M3DN4ASrADGuB-1" source="pup2LY9M3DN4ASrADGuB-6" target="pup2LY9M3DN4ASrADGuB-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pup2LY9M3DN4ASrADGuB-36" value="CAD / 表面文件" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" edge="1" parent="pup2LY9M3DN4ASrADGuB-1" source="pup2LY9M3DN4ASrADGuB-7" target="pup2LY9M3DN4ASrADGuB-8">
+        <mxCell id="pup2LY9M3DN4ASrADGuB-36" value="CAD / 表面文件" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" edge="1" parent="pup2LY9M3DN4ASrADGuB-1" source="pup2LY9M3DN4ASrADGuB-7">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="717" y="270" />
               <mxPoint x="157" y="270" />
             </Array>
+            <mxPoint x="157" y="595" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pup2LY9M3DN4ASrADGuB-37" value=".dat" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" edge="1" parent="pup2LY9M3DN4ASrADGuB-1" source="pup2LY9M3DN4ASrADGuB-7" target="pup2LY9M3DN4ASrADGuB-9">
@@ -427,7 +425,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pup2LY9M3DN4ASrADGuB-39" value="STEP/STP/BREP" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" edge="1" parent="pup2LY9M3DN4ASrADGuB-1" source="pup2LY9M3DN4ASrADGuB-7" target="pup2LY9M3DN4ASrADGuB-11">
-          <mxGeometry x="0.0592" relative="1" as="geometry">
+          <mxGeometry x="-0.0535" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="717" y="290" />
               <mxPoint x="952" y="290" />
@@ -443,12 +441,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="pup2LY9M3DN4ASrADGuB-41" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" edge="1" parent="pup2LY9M3DN4ASrADGuB-1" source="pup2LY9M3DN4ASrADGuB-8" target="pup2LY9M3DN4ASrADGuB-13">
+        <mxCell id="pup2LY9M3DN4ASrADGuB-41" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" edge="1" parent="pup2LY9M3DN4ASrADGuB-1" target="pup2LY9M3DN4ASrADGuB-13">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="395" y="770" />
               <mxPoint x="895" y="770" />
             </Array>
+            <mxPoint x="317" y="652.4285714285716" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pup2LY9M3DN4ASrADGuB-42" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" edge="1" parent="pup2LY9M3DN4ASrADGuB-1" source="pup2LY9M3DN4ASrADGuB-9" target="pup2LY9M3DN4ASrADGuB-13">
