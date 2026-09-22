@@ -35,7 +35,7 @@
           <mxGeometry x="787" y="470" width="330" height="115" as="geometry" />
         </mxCell>
         <mxCell id="m_plt" value="手动打开 .plt&#xa;直接进入结果解析&#xa;不经过本次求解状态检查" style="rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
-          <mxGeometry x="1370" y="645" width="330" height="115" as="geometry" />
+          <mxGeometry x="1260" y="650" width="330" height="115" as="geometry" />
         </mxCell>
         <mxCell id="m_ready" value="等待用户操作&#xa;检查 / 修改设置、选择区域、查看模型&#xa;文件导入本身不自动执行求解" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
           <mxGeometry x="600" y="790" width="590" height="105" as="geometry" />
