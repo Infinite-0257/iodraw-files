@@ -295,7 +295,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="01.1 当前软件主流程 的副本" id="q1kGPTrqL-9Be9igUj_z">
-    <mxGraphModel dx="3252" dy="1550" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1940" pageHeight="2780" math="0" shadow="0">
+    <mxGraphModel dx="3252" dy="1950" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1940" pageHeight="2780" math="0" shadow="0">
       <root>
         <mxCell id="pup2LY9M3DN4ASrADGuB-0" />
         <mxCell id="pup2LY9M3DN4ASrADGuB-1" parent="pup2LY9M3DN4ASrADGuB-0" />
@@ -303,10 +303,10 @@
           <mxGeometry x="1940" y="880" width="770" height="2100" as="geometry" />
         </mxCell>
         <mxCell id="pup2LY9M3DN4ASrADGuB-3" value="ARIES CAE｜当前软件运行主流程" style="text;html=0;fontSize=27;fontStyle=1;align=left;verticalAlign=middle;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
-          <mxGeometry x="-180" y="57" width="1820" height="50" as="geometry" />
+          <mxGeometry x="-170" y="-50" width="1820" height="50" as="geometry" />
         </mxCell>
         <mxCell id="pup2LY9M3DN4ASrADGuB-4" value="依据现有 GUI_PySide_PyVista 与 Source_Files；展示已实现逻辑。第 2 页展开 CAD 分支，第 3 页展开求解与状态检查。" style="text;html=0;fontSize=14;align=left;fontColor=#64748b;whiteSpace=wrap;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
-          <mxGeometry x="-180" y="115" width="1820" height="40" as="geometry" />
+          <mxGeometry x="-170" y="8" width="1820" height="40" as="geometry" />
         </mxCell>
         <mxCell id="pup2LY9M3DN4ASrADGuB-5" value="启动 ARIES CAE" style="ellipse;fillColor=#d5e8d4;strokeColor=#82b366;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
           <mxGeometry x="517" y="100" width="360" height="55" as="geometry" />
@@ -458,8 +458,8 @@
         <mxCell id="pup2LY9M3DN4ASrADGuB-44" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" edge="1" parent="pup2LY9M3DN4ASrADGuB-1" source="pup2LY9M3DN4ASrADGuB-11" target="pup2LY9M3DN4ASrADGuB-13">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="950" y="610" />
-              <mxPoint x="895" y="610" />
+              <mxPoint x="918" y="780" />
+              <mxPoint x="918" y="780" />
             </Array>
           </mxGeometry>
         </mxCell>
