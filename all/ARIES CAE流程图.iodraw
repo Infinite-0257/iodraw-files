@@ -295,7 +295,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="01.1 当前软件主流程 的副本" id="q1kGPTrqL-9Be9igUj_z">
-    <mxGraphModel dx="1351" dy="917" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1940" pageHeight="2780" math="0" shadow="0">
+    <mxGraphModel dx="2437" dy="1507" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1940" pageHeight="2780" math="0" shadow="0">
       <root>
         <mxCell id="pup2LY9M3DN4ASrADGuB-0" />
         <mxCell id="pup2LY9M3DN4ASrADGuB-1" parent="pup2LY9M3DN4ASrADGuB-0" />
@@ -340,24 +340,8 @@
         <mxCell id="pup2LY9M3DN4ASrADGuB-9" value="打开已有 .dat&#xa;解析节点、单元和边界数据" style="rounded=1;fillColor=#f8cecc;strokeColor=#b85450;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
           <mxGeometry x="-100" y="575" width="220" height="76.67" as="geometry" />
         </mxCell>
-        <mxCell id="q-8w-l1Lf4INOttznGJh-11" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;curved=0;" edge="1" parent="pup2LY9M3DN4ASrADGuB-1" source="pup2LY9M3DN4ASrADGuB-10" target="q-8w-l1Lf4INOttznGJh-5">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="697" y="710" />
-              <mxPoint x="920" y="710" />
-              <mxPoint x="920" y="759" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="pup2LY9M3DN4ASrADGuB-10" value="打开工程&#xa;接着上次的工作继续做" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
           <mxGeometry x="594" y="575" width="206" height="65" as="geometry" />
-        </mxCell>
-        <mxCell id="q-8w-l1Lf4INOttznGJh-10" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="pup2LY9M3DN4ASrADGuB-1" source="pup2LY9M3DN4ASrADGuB-11" target="q-8w-l1Lf4INOttznGJh-5">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="920" y="760" />
-            </Array>
-          </mxGeometry>
         </mxCell>
         <mxCell id="pup2LY9M3DN4ASrADGuB-11" value="导入几何&#xa;从零件形状开始建立分析" style="rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
           <mxGeometry x="810" y="575" width="216" height="65" as="geometry" />
