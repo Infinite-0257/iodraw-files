@@ -295,7 +295,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="01.1 当前软件主流程 的副本" id="q1kGPTrqL-9Be9igUj_z">
-    <mxGraphModel dx="3965" dy="2338" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1940" pageHeight="2780" math="0" shadow="0">
+    <mxGraphModel dx="2777" dy="1692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1940" pageHeight="2780" math="0" shadow="0">
       <root>
         <mxCell id="pup2LY9M3DN4ASrADGuB-0" />
         <mxCell id="pup2LY9M3DN4ASrADGuB-1" parent="pup2LY9M3DN4ASrADGuB-0" />
@@ -587,7 +587,7 @@
           <mxGeometry x="140" y="545.83" width="440" height="135" as="geometry" />
         </mxCell>
         <mxCell id="q-8w-l1Lf4INOttznGJh-5" value="新建临时工作区&#xa;将工程文件中含有的信息加载到临时工作区中" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
-          <mxGeometry x="1390" y="710" width="206" height="65" as="geometry" />
+          <mxGeometry x="2207" y="580.83" width="206" height="65" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
