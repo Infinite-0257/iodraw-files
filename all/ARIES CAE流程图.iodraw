@@ -455,14 +455,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="pup2LY9M3DN4ASrADGuB-45" value="用户主动保存" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;dashed=1;" edge="1" parent="pup2LY9M3DN4ASrADGuB-1" source="pup2LY9M3DN4ASrADGuB-13" target="pup2LY9M3DN4ASrADGuB-14">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="620" y="820" />
-              <mxPoint x="620" y="820" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="pup2LY9M3DN4ASrADGuB-46" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" edge="1" parent="pup2LY9M3DN4ASrADGuB-1" source="pup2LY9M3DN4ASrADGuB-13" target="pup2LY9M3DN4ASrADGuB-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
