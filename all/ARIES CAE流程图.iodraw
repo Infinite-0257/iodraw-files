@@ -343,6 +343,9 @@
         <mxCell id="pup2LY9M3DN4ASrADGuB-10" value="打开工程&#xa;接着上次的工作继续做" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
           <mxGeometry x="594" y="575" width="206" height="65" as="geometry" />
         </mxCell>
+        <mxCell id="q-8w-l1Lf4INOttznGJh-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="pup2LY9M3DN4ASrADGuB-1" source="pup2LY9M3DN4ASrADGuB-11" target="q-8w-l1Lf4INOttznGJh-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="pup2LY9M3DN4ASrADGuB-11" value="导入几何&#xa;从零件形状开始建立分析" style="rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
           <mxGeometry x="810" y="575" width="216" height="65" as="geometry" />
         </mxCell>
@@ -457,6 +460,14 @@
             <Array as="points">
               <mxPoint x="697" y="715" />
               <mxPoint x="920" y="715" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pup2LY9M3DN4ASrADGuB-44" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" edge="1" parent="pup2LY9M3DN4ASrADGuB-1" source="pup2LY9M3DN4ASrADGuB-11" target="pup2LY9M3DN4ASrADGuB-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="920" y="750" />
+              <mxPoint x="920" y="750" />
             </Array>
           </mxGeometry>
         </mxCell>
