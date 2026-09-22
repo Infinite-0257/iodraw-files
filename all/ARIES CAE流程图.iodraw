@@ -288,6 +288,9 @@
         <mxCell id="jvQAVXSHA2rTicbOk-mt-9" value="将计算记录，计算结果存进暂存文件&#xa;(若暂存文件中已有计算记录，计算结果，则进行覆盖)" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="1">
           <mxGeometry x="2075" y="2000" width="500" height="115" as="geometry" />
         </mxCell>
+        <mxCell id="jvQAVXSHA2rTicbOk-mt-13" value="CAD / 表面模型&#xa;导入与显示；可手动或 AI 设置&#xa;详见第 2 页「建模段」" style="shape=process;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="70" y="530" width="330" height="115" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
