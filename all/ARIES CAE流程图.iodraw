@@ -596,7 +596,7 @@
         <mxCell id="q-8w-l1Lf4INOttznGJh-5" value="新建临时工作区&#xa;将工程文件中含有的信息&#xa;加载到临时工作区中&#xa;或设为空白" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
           <mxGeometry x="2250" y="557.92" width="206" height="99.17" as="geometry" />
         </mxCell>
-        <mxCell id="DhECXwNkiA2Bq2NcHUQ1-0" value="新建临时工作区&#xa;将工程文件中含有的信息&#xa;加载到临时工作区中&#xa;或设为空白" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
+        <mxCell id="DhECXwNkiA2Bq2NcHUQ1-0" value="根据设置的参数内容&#xa;修改计算记录" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
           <mxGeometry x="2240" y="792.92" width="206" height="99.17" as="geometry" />
         </mxCell>
       </root>
