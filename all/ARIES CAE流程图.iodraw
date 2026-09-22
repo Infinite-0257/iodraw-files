@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" compressed="false" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36 Edg/152.0.0.0" version="24.7.17" pages="3">
   <diagram id="main" name="01 当前软件主流程">
-    <mxGraphModel dx="3565" dy="2338" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1940" pageHeight="2780" math="0" shadow="0">
+    <mxGraphModel dx="2037" dy="1507" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1940" pageHeight="2780" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -29,7 +29,7 @@
           <mxGeometry x="420" y="420" width="330" height="115" as="geometry" />
         </mxCell>
         <mxCell id="m_pre" value="运行可用预处理器&#xa;程序成功后，将生成的 input.dat&#xa;复制到项目根目录并加载" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
-          <mxGeometry x="795" y="405" width="330" height="115" as="geometry" />
+          <mxGeometry x="795" y="390" width="330" height="115" as="geometry" />
         </mxCell>
         <mxCell id="m_session" value="打开会话 .json&#xa;恢复材料、网格、求解及显示设置&#xa;不恢复 CAD、约束选区或结果文件" style="rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
           <mxGeometry x="1160" y="500" width="330" height="115" as="geometry" />
@@ -289,7 +289,7 @@
           <mxGeometry x="2075" y="2000" width="500" height="115" as="geometry" />
         </mxCell>
         <mxCell id="jvQAVXSHA2rTicbOk-mt-13" value="CAD / 表面模型&#xa;导入与显示；可手动或 AI 设置&#xa;详见第 2 页「建模段」" style="shape=process;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="1">
-          <mxGeometry x="70" y="530" width="330" height="115" as="geometry" />
+          <mxGeometry x="2030" y="530" width="330" height="115" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
