@@ -343,9 +343,6 @@
         <mxCell id="pup2LY9M3DN4ASrADGuB-10" value="打开工程&#xa;接着上次的工作继续做" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
           <mxGeometry x="594" y="575" width="206" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="q-8w-l1Lf4INOttznGJh-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="pup2LY9M3DN4ASrADGuB-1" source="pup2LY9M3DN4ASrADGuB-11" target="q-8w-l1Lf4INOttznGJh-5">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="pup2LY9M3DN4ASrADGuB-11" value="导入几何&#xa;从零件形状开始建立分析" style="rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
           <mxGeometry x="810" y="575" width="216" height="65" as="geometry" />
         </mxCell>
@@ -601,6 +598,9 @@
         </mxCell>
         <mxCell id="DhECXwNkiA2Bq2NcHUQ1-0" value="根据设置的参数内容&#xa;修改计算记录" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
           <mxGeometry x="2240" y="792.92" width="206" height="99.17" as="geometry" />
+        </mxCell>
+        <mxCell id="DhECXwNkiA2Bq2NcHUQ1-2" value="临时工作区&lt;div&gt;（包含当前模型，计算记录，计算结果）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeWidth=3;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
+          <mxGeometry x="1945" y="520" width="770" height="2450" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
