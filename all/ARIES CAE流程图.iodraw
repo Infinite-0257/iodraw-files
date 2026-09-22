@@ -341,7 +341,13 @@
           <mxGeometry x="-100" y="575" width="220" height="76.67" as="geometry" />
         </mxCell>
         <mxCell id="q-8w-l1Lf4INOttznGJh-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="pup2LY9M3DN4ASrADGuB-1" source="pup2LY9M3DN4ASrADGuB-10" target="q-8w-l1Lf4INOttznGJh-5">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="697" y="710" />
+              <mxPoint x="920" y="710" />
+              <mxPoint x="920" y="759" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="pup2LY9M3DN4ASrADGuB-10" value="打开工程&#xa;接着上次的工作继续做" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
           <mxGeometry x="594" y="575" width="206" height="65" as="geometry" />
