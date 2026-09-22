@@ -411,11 +411,12 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pup2LY9M3DN4ASrADGuB-37" value=".dat" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" edge="1" parent="pup2LY9M3DN4ASrADGuB-1" source="pup2LY9M3DN4ASrADGuB-7" target="pup2LY9M3DN4ASrADGuB-9">
-          <mxGeometry relative="1" as="geometry">
+          <mxGeometry x="0.0062" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="717" y="290" />
-              <mxPoint x="457" y="290" />
+              <mxPoint x="120" y="290" />
             </Array>
+            <mxPoint y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pup2LY9M3DN4ASrADGuB-38" value="ARIES 自己的工程格式" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" edge="1" parent="pup2LY9M3DN4ASrADGuB-1" source="pup2LY9M3DN4ASrADGuB-7" target="pup2LY9M3DN4ASrADGuB-10">
@@ -567,7 +568,7 @@
           <mxGeometry x="2075" y="2000" width="500" height="115" as="geometry" />
         </mxCell>
         <mxCell id="q-8w-l1Lf4INOttznGJh-0" value="打开工程&#xa;接着上次的工作继续做" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
-          <mxGeometry x="624" y="375" width="206" height="65" as="geometry" />
+          <mxGeometry x="360" y="380" width="206" height="65" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
