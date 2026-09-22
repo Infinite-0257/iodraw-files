@@ -327,7 +327,7 @@
           <mxGeometry x="830" y="365" width="216" height="65" as="geometry" />
         </mxCell>
         <mxCell id="pup2LY9M3DN4ASrADGuB-12" value="直接进入结果解析" style="rounded=1;fillColor=#f8cecc;strokeColor=#b85450;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
-          <mxGeometry x="1430" y="360" width="170" height="60" as="geometry" />
+          <mxGeometry x="40" y="520" width="170" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pup2LY9M3DN4ASrADGuB-13" value="等待用户操作&#xa;检查 / 修改设置、选择区域、查看模型&#xa;文件导入本身不自动执行求解" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
           <mxGeometry x="600" y="790" width="590" height="105" as="geometry" />
