@@ -599,6 +599,9 @@
         <mxCell id="DhECXwNkiA2Bq2NcHUQ1-11" value="计算结果" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
           <mxGeometry x="2900" y="2020" width="300" height="65" as="geometry" />
         </mxCell>
+        <mxCell id="DhECXwNkiA2Bq2NcHUQ1-12" value="当前模型" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
+          <mxGeometry x="3240" y="1780" width="300" height="65" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
