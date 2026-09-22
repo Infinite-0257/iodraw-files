@@ -314,6 +314,9 @@
         <mxCell id="pup2LY9M3DN4ASrADGuB-6" value="启动脚本 / main.py → QApplication → MainWindow&#xa;加载默认设置、AI 设置和文件列表&#xa;初始化空视图；不恢复上次网格或结果" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
           <mxGeometry x="497" y="-5" width="440" height="110" as="geometry" />
         </mxCell>
+        <mxCell id="q-8w-l1Lf4INOttznGJh-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="pup2LY9M3DN4ASrADGuB-1" source="pup2LY9M3DN4ASrADGuB-7" target="q-8w-l1Lf4INOttznGJh-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="pup2LY9M3DN4ASrADGuB-7" value="用户选择输入 / 打开文件" style="rhombus;fillColor=#fff2cc;strokeColor=#d6b656;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
           <mxGeometry x="547" y="165" width="340" height="80" as="geometry" />
         </mxCell>
@@ -567,7 +570,7 @@
         <mxCell id="pup2LY9M3DN4ASrADGuB-67" value="将计算记录，计算结果存进暂存文件&#xa;(若暂存文件中已有计算记录，计算结果，则进行覆盖)" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
           <mxGeometry x="2075" y="2000" width="500" height="115" as="geometry" />
         </mxCell>
-        <mxCell id="q-8w-l1Lf4INOttznGJh-0" value="打开工程&#xa;接着上次的工作继续做" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
+        <mxCell id="q-8w-l1Lf4INOttznGJh-0" value="导入网格&#xa;使用外部已经划好的网格" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
           <mxGeometry x="360" y="380" width="206" height="65" as="geometry" />
         </mxCell>
       </root>
