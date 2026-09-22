@@ -295,12 +295,12 @@
     </mxGraphModel>
   </diagram>
   <diagram name="01.1 当前软件主流程 的副本" id="q1kGPTrqL-9Be9igUj_z">
-    <mxGraphModel dx="2777" dy="1692" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1940" pageHeight="2780" math="0" shadow="0">
+    <mxGraphModel dx="3965" dy="2338" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1940" pageHeight="2780" math="0" shadow="0">
       <root>
         <mxCell id="pup2LY9M3DN4ASrADGuB-0" />
         <mxCell id="pup2LY9M3DN4ASrADGuB-1" parent="pup2LY9M3DN4ASrADGuB-0" />
         <mxCell id="pup2LY9M3DN4ASrADGuB-2" value="临时工作区&lt;div&gt;（包含当前模型，计算记录，计算结果）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeWidth=3;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
-          <mxGeometry x="1940" y="880" width="770" height="2100" as="geometry" />
+          <mxGeometry x="1940" y="530" width="770" height="2450" as="geometry" />
         </mxCell>
         <mxCell id="pup2LY9M3DN4ASrADGuB-3" value="ARIES CAE｜当前软件运行主流程" style="text;html=0;fontSize=27;fontStyle=1;align=left;verticalAlign=middle;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
           <mxGeometry x="-170" y="-50" width="1820" height="50" as="geometry" />
