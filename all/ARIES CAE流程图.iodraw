@@ -364,7 +364,7 @@
         <mxCell id="pup2LY9M3DN4ASrADGuB-16" value="用户点击 Run Solver" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
           <mxGeometry x="715" y="955" width="360" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="pup2LY9M3DN4ASrADGuB-17" value="入口检查：无其他运行任务且求解器存在&#xa;AI 提案含分配且无已确认分配时，先确认&#xa;检查不通过或确认取消 → 提示并中止" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
+        <mxCell id="pup2LY9M3DN4ASrADGuB-17" value="入口检查：无其他运行任务且求解器存在&#xa;先确认检查不通过或确认取消 → 提示并中止" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
           <mxGeometry x="645" y="1080" width="500" height="115" as="geometry" />
         </mxCell>
         <mxCell id="pup2LY9M3DN4ASrADGuB-18" value="当前存在 CAD 几何&#xa;且具有拓扑模型？" style="rhombus;fillColor=#fff2cc;strokeColor=#d6b656;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
