@@ -361,6 +361,9 @@
         <mxCell id="pup2LY9M3DN4ASrADGuB-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="pup2LY9M3DN4ASrADGuB-1" source="pup2LY9M3DN4ASrADGuB-16" target="pup2LY9M3DN4ASrADGuB-65">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="DhECXwNkiA2Bq2NcHUQ1-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="pup2LY9M3DN4ASrADGuB-1" source="pup2LY9M3DN4ASrADGuB-16" target="pup2LY9M3DN4ASrADGuB-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="pup2LY9M3DN4ASrADGuB-16" value="用户点击 Run Solver" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
           <mxGeometry x="715" y="955" width="360" height="65" as="geometry" />
         </mxCell>
