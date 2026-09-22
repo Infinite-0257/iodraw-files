@@ -599,7 +599,7 @@
         <mxCell id="DhECXwNkiA2Bq2NcHUQ1-11" value="计算结果" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
           <mxGeometry x="2900" y="2020" width="300" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="DhECXwNkiA2Bq2NcHUQ1-12" value="最近一次成功计算的完整模型、配置、输入、结果和必要说明&#xa;新计算成功且结果检查通过后，整体替换" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
+        <mxCell id="DhECXwNkiA2Bq2NcHUQ1-12" value="最近一次成功计算的完整模型、配置、输入、结果&#xa;新计算成功且结果检查通过后，整体替换" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
           <mxGeometry x="3220" y="2020" width="400" height="65" as="geometry" />
         </mxCell>
         <mxCell id="DhECXwNkiA2Bq2NcHUQ1-13" value="当前几何、拓扑、选区，以及当前有效的网格&#xa;随模型操作更新；受影响的旧网格标记为失效" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
