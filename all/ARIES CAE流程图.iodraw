@@ -584,6 +584,9 @@
         <mxCell id="DhECXwNkiA2Bq2NcHUQ1-4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeWidth=3;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
           <mxGeometry x="590" y="557.92" width="460" height="102.08" as="geometry" />
         </mxCell>
+        <mxCell id="DhECXwNkiA2Bq2NcHUQ1-7" value="读取临时工作区中的模型及计算记录" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
+          <mxGeometry x="2170" y="965" width="300" height="65" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
