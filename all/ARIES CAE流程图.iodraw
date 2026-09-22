@@ -599,8 +599,8 @@
         <mxCell id="DhECXwNkiA2Bq2NcHUQ1-0" value="根据设置的参数内容&#xa;修改计算记录" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
           <mxGeometry x="2240" y="792.92" width="206" height="99.17" as="geometry" />
         </mxCell>
-        <mxCell id="DhECXwNkiA2Bq2NcHUQ1-4" value="临时工作区&lt;div&gt;（包含当前模型，计算记录，计算结果）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeWidth=3;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
-          <mxGeometry x="1165" y="550" width="770" height="150" as="geometry" />
+        <mxCell id="DhECXwNkiA2Bq2NcHUQ1-4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeWidth=3;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
+          <mxGeometry x="1165" y="550" width="465" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
