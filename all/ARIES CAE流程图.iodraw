@@ -121,8 +121,8 @@
         <mxCell id="main_e4" value=".dat" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="1" source="m_open" target="m_dat" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="960" y="320" />
-              <mxPoint x="585" y="320" />
+              <mxPoint x="960" y="340" />
+              <mxPoint x="585" y="340" />
             </Array>
           </mxGeometry>
         </mxCell>
