@@ -314,17 +314,12 @@
         <mxCell id="pup2LY9M3DN4ASrADGuB-6" value="启动脚本 / main.py → QApplication → MainWindow&#xa;加载默认设置、AI 设置和文件列表&#xa;初始化空视图；不恢复上次网格或结果" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
           <mxGeometry x="497" y="-5" width="440" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="q-8w-l1Lf4INOttznGJh-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="pup2LY9M3DN4ASrADGuB-1" source="pup2LY9M3DN4ASrADGuB-7" target="q-8w-l1Lf4INOttznGJh-0">
+        <mxCell id="q-8w-l1Lf4INOttznGJh-1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="pup2LY9M3DN4ASrADGuB-1" source="pup2LY9M3DN4ASrADGuB-7" target="q-8w-l1Lf4INOttznGJh-0">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="q-8w-l1Lf4INOttznGJh-3" value="&lt;code dir=&quot;ltr&quot;&gt;.msh&lt;/code&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="q-8w-l1Lf4INOttznGJh-1">
           <mxGeometry x="0.2964" y="1" relative="1" as="geometry">
             <mxPoint x="34" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="q-8w-l1Lf4INOttznGJh-4" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="q-8w-l1Lf4INOttznGJh-1">
-          <mxGeometry x="0.5094" relative="1" as="geometry">
-            <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="pup2LY9M3DN4ASrADGuB-7" value="用户选择输入 / 打开文件" style="rhombus;fillColor=#fff2cc;strokeColor=#d6b656;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
