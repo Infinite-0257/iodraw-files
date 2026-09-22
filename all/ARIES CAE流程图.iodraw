@@ -558,7 +558,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pup2LY9M3DN4ASrADGuB-65" value="将当前模型和计算记录固定为本次计算快照，这份快照放在“临时计算过程”中，生成结果包时，应从本次计算快照中取配置" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
-          <mxGeometry x="2160" y="955" width="300" height="65" as="geometry" />
+          <mxGeometry x="2160" y="925" width="300" height="125" as="geometry" />
         </mxCell>
         <mxCell id="pup2LY9M3DN4ASrADGuB-66" value="删除计算记录，计算结果，暂存文件为空" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
           <mxGeometry x="2070" y="2775" width="500" height="115" as="geometry" />
