@@ -583,10 +583,7 @@
           <mxGeometry x="160" y="335.83000000000004" width="440" height="135" as="geometry" />
         </mxCell>
         <mxCell id="q-8w-l1Lf4INOttznGJh-5" value="新建临时工作区&#xa;将工程文件中含有的信息加载到临时工作区中" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
-          <mxGeometry x="614" y="460" width="206" height="65" as="geometry" />
-        </mxCell>
-        <mxCell id="q-8w-l1Lf4INOttznGJh-6" value="打开工程&#xa;接着上次的工作继续做" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="pup2LY9M3DN4ASrADGuB-1">
-          <mxGeometry x="840" y="460" width="206" height="65" as="geometry" />
+          <mxGeometry x="1500" y="376.67" width="206" height="65" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
