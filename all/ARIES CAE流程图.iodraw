@@ -1,299 +1,4 @@
 <mxfile host="www.iodraw.com" compressed="false" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36 Edg/152.0.0.0" version="24.7.17" pages="4">
-  <diagram id="main" name="01 当前软件主流程">
-    <mxGraphModel dx="2853" dy="5125" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1940" pageHeight="2780" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="jvQAVXSHA2rTicbOk-mt-4" value="临时工作区&lt;div&gt;（包含当前模型，计算记录，计算结果）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeWidth=3;" vertex="1" parent="1">
-          <mxGeometry x="1940" y="880" width="770" height="2100" as="geometry" />
-        </mxCell>
-        <mxCell id="m_title" value="ARIES CAE｜当前软件运行主流程" style="text;html=0;fontSize=27;fontStyle=1;align=left;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="-190" y="-230" width="1820" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="m_subtitle" value="依据现有 GUI_PySide_PyVista 与 Source_Files；展示已实现逻辑。第 2 页展开 CAD 分支，第 3 页展开求解与状态检查。" style="text;html=0;fontSize=14;align=left;fontColor=#64748b;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="-190" y="-172" width="1820" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="m_start" value="启动 ARIES CAE" style="ellipse;fillColor=#d5e8d4;strokeColor=#82b366;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
-          <mxGeometry x="537" y="-110" width="360" height="55" as="geometry" />
-        </mxCell>
-        <mxCell id="m_init" value="启动脚本 / main.py → QApplication → MainWindow&#xa;加载默认设置、AI 设置和文件列表&#xa;初始化空视图；不恢复上次网格或结果" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
-          <mxGeometry x="497" y="-5" width="440" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="m_open" value="用户选择输入 / 打开文件" style="rhombus;fillColor=#fff2cc;strokeColor=#d6b656;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
-          <mxGeometry x="547" y="165" width="340" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="m_cad" value="CAD / 表面模型&#xa;导入与显示；可手动或 AI 设置&#xa;详见第 2 页「建模段」" style="shape=process;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
-          <mxGeometry x="-13" y="595" width="330" height="115" as="geometry" />
-        </mxCell>
-        <mxCell id="m_dat" value="打开已有 .dat&#xa;解析节点、单元和边界数据&#xa;构造并显示 PyVista 网格" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
-          <mxGeometry x="317" y="470" width="330" height="115" as="geometry" />
-        </mxCell>
-        <mxCell id="m_pre" value="运行可用预处理器&#xa;程序成功后，将生成的 input.dat&#xa;复制到项目根目录并加载" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
-          <mxGeometry x="577" y="340" width="280" height="115" as="geometry" />
-        </mxCell>
-        <mxCell id="m_session" value="打开会话 .json&#xa;恢复材料、网格、求解及显示设置&#xa;不恢复 CAD、约束选区或结果文件" style="rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
-          <mxGeometry x="787" y="470" width="330" height="115" as="geometry" />
-        </mxCell>
-        <mxCell id="m_plt" value="手动打开 .plt&#xa;直接进入结果解析&#xa;不经过本次求解状态检查" style="rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
-          <mxGeometry x="1260" y="650" width="330" height="115" as="geometry" />
-        </mxCell>
-        <mxCell id="m_ready" value="等待用户操作&#xa;检查 / 修改设置、选择区域、查看模型&#xa;文件导入本身不自动执行求解" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
-          <mxGeometry x="600" y="790" width="590" height="105" as="geometry" />
-        </mxCell>
-        <mxCell id="m_save" value="可选：保存 / 另存会话 JSON&#xa;写入程序路径、显示选项、材料、分析、&#xa;网格、求解设置及输出字段&#xa;不打包模型、边界条件或计算结果" style="rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
-          <mxGeometry x="50" y="920" width="440" height="155" as="geometry" />
-        </mxCell>
-        <mxCell id="5vZWpeuJr3HITQHxux4a-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m_click" target="5vZWpeuJr3HITQHxux4a-1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="m_click" value="用户点击 Run Solver" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
-          <mxGeometry x="715" y="955" width="360" height="65" as="geometry" />
-        </mxCell>
-        <mxCell id="m_guard" value="入口检查：无其他运行任务且求解器存在&#xa;AI 提案含分配且无已确认分配时，先确认&#xa;检查不通过或确认取消 → 提示并中止" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
-          <mxGeometry x="645" y="1080" width="500" height="115" as="geometry" />
-        </mxCell>
-        <mxCell id="m_route" value="当前存在 CAD 几何&#xa;且具有拓扑模型？" style="rhombus;fillColor=#fff2cc;strokeColor=#d6b656;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
-          <mxGeometry x="720" y="1270" width="350" height="130" as="geometry" />
-        </mxCell>
-        <mxCell id="m_cadprep" value="CAD 求解输入准备&#xa;配置校验 → 按需生成网格 → 导出&#xa;详见第 2 页「求解准备段」&#xa;失败则中止本次运行" style="shape=process;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
-          <mxGeometry x="310" y="1440" width="500" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="m_native" value="已有 input.dat 路径&#xa;检查项目根目录 input.dat 是否存在&#xa;更新材料参数并写 material_properties.dat&#xa;不存在或写入失败则中止" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
-          <mxGeometry x="940" y="1450" width="500" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="m_inputnote" value="当前输入路径限制&#xa;打开外部 .dat 只更新显示模型；&#xa;非 CAD 求解仍读取根目录 input.dat。&#xa;两者目前未统一绑定。" style="shape=note;size=20;fillColor=#fff2cc;strokeColor=#d6b656;align=left;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
-          <mxGeometry x="1240" y="1270" width="310" height="140" as="geometry" />
-        </mxCell>
-        <mxCell id="m_solver" value="启动求解并检查进程 / 状态 / 输出&#xa;生成 run_id 与当前会话的待求解快照&#xa;详见第 3 页" style="shape=process;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
-          <mxGeometry x="645" y="1690" width="500" height="115" as="geometry" />
-        </mxCell>
-        <mxCell id="m_error" value="本次运行失败 / 取消 / 输出检查失败&#xa;记录 process_status.json 并显示错误&#xa;不接受本次结果；留在界面等待操作" style="rounded=1;fillColor=#f8cecc;strokeColor=#b85450;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
-          <mxGeometry x="1220" y="1685" width="340" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="jvQAVXSHA2rTicbOk-mt-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m_parse" target="jvQAVXSHA2rTicbOk-mt-9">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="895" y="2058" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="m_parse" value="解析 .plt → 转换结果模型与显示表面&#xa;result_parser.py / vtk_converter.py&#xa;文件缺失或解析异常 → 提示并中止加载" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
-          <mxGeometry x="645" y="1900" width="500" height="115" as="geometry" />
-        </mxCell>
-        <mxCell id="m_view" value="PyVista 结果显示&#xa;位移、应力、应变字段与变形显示&#xa;可导出 VTU，或调用 Tecplot 查看" style="rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
-          <mxGeometry x="645" y="2080" width="500" height="105" as="geometry" />
-        </mxCell>
-        <mxCell id="m_origin" value="结果来自本次成功求解？" style="rhombus;fillColor=#fff2cc;strokeColor=#d6b656;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
-          <mxGeometry x="720" y="2245" width="350" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="m_snapshot" value="更新 solved_snapshot 与求解配置哈希&#xa;仅保留在当前 GUI 会话内存&#xa;save_simulation_snapshot() 不持久化结果快照" style="rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
-          <mxGeometry x="645" y="2410" width="500" height="105" as="geometry" />
-        </mxCell>
-        <mxCell id="m_next" value="继续查看 / 修改配置并再次计算 / 关闭" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
-          <mxGeometry x="650" y="2585" width="490" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="jvQAVXSHA2rTicbOk-mt-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m_close" target="jvQAVXSHA2rTicbOk-mt-7">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="m_close" value="关闭软件&#xa;内存中的模型、网格及状态结束&#xa;已有磁盘文件继续留在原路径" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
-          <mxGeometry x="650" y="2780" width="490" height="105" as="geometry" />
-        </mxCell>
-        <mxCell id="m_note" value="当前保存行为&#xa;• 根目录固定文件会被后续运行复用 / 覆写。&#xa;• 尚未实现独立运行目录和两次结果轮换。&#xa;• 重启时为空视图，不自动恢复上一结果。&#xa;• 物理校验、工程报告尚未接入此 GUI 闭环；&#xa;  Report 视图当前为占位。" style="shape=note;size=20;fillColor=#fff2cc;strokeColor=#d6b656;align=left;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
-          <mxGeometry x="50" y="2250" width="510" height="250" as="geometry" />
-        </mxCell>
-        <mxCell id="m_errnote" value="通用异常处理&#xa;导入、配置、网格或导出出错时，提示错误，&#xa;停止当前动作，用户修正后重新操作。" style="shape=note;size=20;fillColor=#fff2cc;strokeColor=#d6b656;align=left;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
-          <mxGeometry x="50" y="1900" width="460" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="main_e1" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="1" source="m_start" target="m_init" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="main_e2" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="1" source="m_init" target="m_open" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="main_e3" value="CAD / 表面文件" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="1" source="m_open" target="m_cad" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="717" y="270" />
-              <mxPoint x="157" y="270" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="main_e4" value=".dat" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="1" source="m_open" target="m_dat" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="717" y="290" />
-              <mxPoint x="457" y="290" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="main_e5" value="预处理器" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="1" source="m_open" target="m_pre" edge="1">
-          <mxGeometry x="0.3636" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="main_e6" value=".json" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="1" source="m_open" target="m_session" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="717" y="290" />
-              <mxPoint x="952" y="290" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="main_e7" value=".plt" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="1" source="m_open" target="m_plt" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="960" y="320" />
-              <mxPoint x="1535" y="320" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="main_e8" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="1" source="m_cad" target="m_ready" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="395" y="770" />
-              <mxPoint x="895" y="770" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="main_e9" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="1" source="m_dat" target="m_ready" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="585" y="745" />
-              <mxPoint x="895" y="745" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="main_e10" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="1" source="m_pre" target="m_ready" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="main_e11" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="1" source="m_session" target="m_ready" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1210" y="750" />
-              <mxPoint x="895" y="750" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="main_e12" value="用户主动保存" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;dashed=1;" parent="1" source="m_ready" target="m_save" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="main_e13" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="1" source="m_ready" target="m_click" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="main_e15" value="通过" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="1" source="m_guard" target="m_route" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="main_e16" value="是" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="1" source="m_route" target="m_cadprep" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="460" y="1335" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="main_e17" value="否" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="1" source="m_route" target="m_native" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1180" y="1335" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="main_e18" value="准备成功" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="1" source="m_cadprep" target="m_solver" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="460" y="1640" />
-              <mxPoint x="895" y="1640" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="main_e19" value="准备成功" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="1" source="m_native" target="m_solver" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1180" y="1640" />
-              <mxPoint x="895" y="1640" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="main_e20" value="现有限制" style="edgeStyle=orthogonalEdgeStyle;endArrow=none;html=0;labelBackgroundColor=#ffffff;dashed=1;strokeColor=#d6b656;" parent="1" source="m_native" target="m_inputnote" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1310" y="1430" />
-              <mxPoint x="1395" y="1430" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="main_e21" value="未通过" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="1" source="m_solver" target="m_error" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="main_e22" value="通过" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="1" source="m_solver" target="m_parse" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="main_e23" value="手动加载" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;dashed=1;" parent="1" source="m_plt" target="m_parse" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1570" y="1957" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="main_e24" value="解析成功" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="1" source="m_parse" target="m_view" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="main_e25" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="1" source="m_view" target="m_origin" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="main_e26" value="是" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="1" source="m_origin" target="m_snapshot" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="main_e27" value="否：仅查看外部结果" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="1" source="m_origin" target="m_next" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1200" y="2295" />
-              <mxPoint x="1200" y="2545" />
-              <mxPoint x="895" y="2545" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="main_e28" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="1" source="m_snapshot" target="m_next" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="main_e29" value="关闭" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="1" source="m_next" target="m_close" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="main_e30" value="修改 / 再次计算" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;dashed=1;exitX=0;exitY=0.5;entryX=0;entryY=0.5;" parent="1" source="m_next" target="m_ready" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="580" y="2620" />
-              <mxPoint x="580" y="870" />
-              <mxPoint x="600" y="870" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="jvQAVXSHA2rTicbOk-mt-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5vZWpeuJr3HITQHxux4a-1" target="m_guard">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="2660" y="1138" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="jvQAVXSHA2rTicbOk-mt-6" value="根据计算记录中的内容，进行计算" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jvQAVXSHA2rTicbOk-mt-5">
-          <mxGeometry x="0.1988" y="9" relative="1" as="geometry">
-            <mxPoint x="-73" y="-9" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="5vZWpeuJr3HITQHxux4a-1" value="将计算使用的配置、输入和结果作为一套计算记录，保存进暂存文件(若暂存文件中已有计算记录，则进行覆盖)" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="1">
-          <mxGeometry x="2060" y="930" width="500" height="115" as="geometry" />
-        </mxCell>
-        <mxCell id="jvQAVXSHA2rTicbOk-mt-7" value="删除计算记录，计算结果，暂存文件为空" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="1">
-          <mxGeometry x="2070" y="2775" width="500" height="115" as="geometry" />
-        </mxCell>
-        <mxCell id="jvQAVXSHA2rTicbOk-mt-9" value="将计算记录，计算结果存进暂存文件&#xa;(若暂存文件中已有计算记录，计算结果，则进行覆盖)" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="1">
-          <mxGeometry x="2075" y="2000" width="500" height="115" as="geometry" />
-        </mxCell>
-        <mxCell id="jvQAVXSHA2rTicbOk-mt-13" value="CAD / 表面模型&#xa;导入与显示；可手动或 AI 设置&#xa;详见第 2 页「建模段」" style="shape=process;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="1">
-          <mxGeometry x="1790" y="455" width="330" height="115" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
   <diagram name="01.1 当前软件主流程 的副本" id="q1kGPTrqL-9Be9igUj_z">
     <mxGraphModel dx="2362" dy="4180" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1940" pageHeight="2780" math="0" shadow="0">
       <root>
@@ -993,6 +698,301 @@
               <mxPoint x="50" y="1740" />
             </Array>
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="main" name="01 当前软件主流程">
+    <mxGraphModel dx="2853" dy="5125" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1940" pageHeight="2780" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jvQAVXSHA2rTicbOk-mt-4" value="临时工作区&lt;div&gt;（包含当前模型，计算记录，计算结果）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="1940" y="880" width="770" height="2100" as="geometry" />
+        </mxCell>
+        <mxCell id="m_title" value="ARIES CAE｜当前软件运行主流程" style="text;html=0;fontSize=27;fontStyle=1;align=left;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="-190" y="-230" width="1820" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="m_subtitle" value="依据现有 GUI_PySide_PyVista 与 Source_Files；展示已实现逻辑。第 2 页展开 CAD 分支，第 3 页展开求解与状态检查。" style="text;html=0;fontSize=14;align=left;fontColor=#64748b;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="-190" y="-172" width="1820" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m_start" value="启动 ARIES CAE" style="ellipse;fillColor=#d5e8d4;strokeColor=#82b366;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
+          <mxGeometry x="537" y="-110" width="360" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="m_init" value="启动脚本 / main.py → QApplication → MainWindow&#xa;加载默认设置、AI 设置和文件列表&#xa;初始化空视图；不恢复上次网格或结果" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
+          <mxGeometry x="497" y="-5" width="440" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="m_open" value="用户选择输入 / 打开文件" style="rhombus;fillColor=#fff2cc;strokeColor=#d6b656;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
+          <mxGeometry x="547" y="165" width="340" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="m_cad" value="CAD / 表面模型&#xa;导入与显示；可手动或 AI 设置&#xa;详见第 2 页「建模段」" style="shape=process;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
+          <mxGeometry x="-13" y="595" width="330" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="m_dat" value="打开已有 .dat&#xa;解析节点、单元和边界数据&#xa;构造并显示 PyVista 网格" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
+          <mxGeometry x="317" y="470" width="330" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="m_pre" value="运行可用预处理器&#xa;程序成功后，将生成的 input.dat&#xa;复制到项目根目录并加载" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
+          <mxGeometry x="577" y="340" width="280" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="m_session" value="打开会话 .json&#xa;恢复材料、网格、求解及显示设置&#xa;不恢复 CAD、约束选区或结果文件" style="rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
+          <mxGeometry x="787" y="470" width="330" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="m_plt" value="手动打开 .plt&#xa;直接进入结果解析&#xa;不经过本次求解状态检查" style="rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
+          <mxGeometry x="1260" y="650" width="330" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="m_ready" value="等待用户操作&#xa;检查 / 修改设置、选择区域、查看模型&#xa;文件导入本身不自动执行求解" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
+          <mxGeometry x="600" y="790" width="590" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="m_save" value="可选：保存 / 另存会话 JSON&#xa;写入程序路径、显示选项、材料、分析、&#xa;网格、求解设置及输出字段&#xa;不打包模型、边界条件或计算结果" style="rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
+          <mxGeometry x="50" y="920" width="440" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="5vZWpeuJr3HITQHxux4a-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m_click" target="5vZWpeuJr3HITQHxux4a-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m_click" value="用户点击 Run Solver" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
+          <mxGeometry x="715" y="955" width="360" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="m_guard" value="入口检查：无其他运行任务且求解器存在&#xa;AI 提案含分配且无已确认分配时，先确认&#xa;检查不通过或确认取消 → 提示并中止" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
+          <mxGeometry x="645" y="1080" width="500" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="m_route" value="当前存在 CAD 几何&#xa;且具有拓扑模型？" style="rhombus;fillColor=#fff2cc;strokeColor=#d6b656;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
+          <mxGeometry x="720" y="1270" width="350" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="m_cadprep" value="CAD 求解输入准备&#xa;配置校验 → 按需生成网格 → 导出&#xa;详见第 2 页「求解准备段」&#xa;失败则中止本次运行" style="shape=process;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
+          <mxGeometry x="310" y="1440" width="500" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="m_native" value="已有 input.dat 路径&#xa;检查项目根目录 input.dat 是否存在&#xa;更新材料参数并写 material_properties.dat&#xa;不存在或写入失败则中止" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
+          <mxGeometry x="940" y="1450" width="500" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="m_inputnote" value="当前输入路径限制&#xa;打开外部 .dat 只更新显示模型；&#xa;非 CAD 求解仍读取根目录 input.dat。&#xa;两者目前未统一绑定。" style="shape=note;size=20;fillColor=#fff2cc;strokeColor=#d6b656;align=left;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
+          <mxGeometry x="1240" y="1270" width="310" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="m_solver" value="启动求解并检查进程 / 状态 / 输出&#xa;生成 run_id 与当前会话的待求解快照&#xa;详见第 3 页" style="shape=process;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
+          <mxGeometry x="645" y="1690" width="500" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="m_error" value="本次运行失败 / 取消 / 输出检查失败&#xa;记录 process_status.json 并显示错误&#xa;不接受本次结果；留在界面等待操作" style="rounded=1;fillColor=#f8cecc;strokeColor=#b85450;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
+          <mxGeometry x="1220" y="1685" width="340" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="jvQAVXSHA2rTicbOk-mt-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m_parse" target="jvQAVXSHA2rTicbOk-mt-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="895" y="2058" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m_parse" value="解析 .plt → 转换结果模型与显示表面&#xa;result_parser.py / vtk_converter.py&#xa;文件缺失或解析异常 → 提示并中止加载" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
+          <mxGeometry x="645" y="1900" width="500" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="m_view" value="PyVista 结果显示&#xa;位移、应力、应变字段与变形显示&#xa;可导出 VTU，或调用 Tecplot 查看" style="rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
+          <mxGeometry x="645" y="2080" width="500" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="m_origin" value="结果来自本次成功求解？" style="rhombus;fillColor=#fff2cc;strokeColor=#d6b656;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
+          <mxGeometry x="720" y="2245" width="350" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="m_snapshot" value="更新 solved_snapshot 与求解配置哈希&#xa;仅保留在当前 GUI 会话内存&#xa;save_simulation_snapshot() 不持久化结果快照" style="rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
+          <mxGeometry x="645" y="2410" width="500" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="m_next" value="继续查看 / 修改配置并再次计算 / 关闭" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
+          <mxGeometry x="650" y="2585" width="490" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="jvQAVXSHA2rTicbOk-mt-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m_close" target="jvQAVXSHA2rTicbOk-mt-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m_close" value="关闭软件&#xa;内存中的模型、网格及状态结束&#xa;已有磁盘文件继续留在原路径" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
+          <mxGeometry x="650" y="2780" width="490" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="m_note" value="当前保存行为&#xa;• 根目录固定文件会被后续运行复用 / 覆写。&#xa;• 尚未实现独立运行目录和两次结果轮换。&#xa;• 重启时为空视图，不自动恢复上一结果。&#xa;• 物理校验、工程报告尚未接入此 GUI 闭环；&#xa;  Report 视图当前为占位。" style="shape=note;size=20;fillColor=#fff2cc;strokeColor=#d6b656;align=left;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
+          <mxGeometry x="50" y="2250" width="510" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="m_errnote" value="通用异常处理&#xa;导入、配置、网格或导出出错时，提示错误，&#xa;停止当前动作，用户修正后重新操作。" style="shape=note;size=20;fillColor=#fff2cc;strokeColor=#d6b656;align=left;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="1" vertex="1">
+          <mxGeometry x="50" y="1900" width="460" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="main_e1" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="1" source="m_start" target="m_init" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="main_e2" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="1" source="m_init" target="m_open" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="main_e3" value="CAD / 表面文件" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="1" source="m_open" target="m_cad" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="717" y="270" />
+              <mxPoint x="157" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="main_e4" value=".dat" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="1" source="m_open" target="m_dat" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="717" y="290" />
+              <mxPoint x="457" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="main_e5" value="预处理器" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="1" source="m_open" target="m_pre" edge="1">
+          <mxGeometry x="0.3636" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="main_e6" value=".json" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="1" source="m_open" target="m_session" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="717" y="290" />
+              <mxPoint x="952" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="main_e7" value=".plt" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="1" source="m_open" target="m_plt" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="960" y="320" />
+              <mxPoint x="1535" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="main_e8" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="1" source="m_cad" target="m_ready" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="395" y="770" />
+              <mxPoint x="895" y="770" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="main_e9" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="1" source="m_dat" target="m_ready" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="585" y="745" />
+              <mxPoint x="895" y="745" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="main_e10" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="1" source="m_pre" target="m_ready" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="main_e11" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="1" source="m_session" target="m_ready" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1210" y="750" />
+              <mxPoint x="895" y="750" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="main_e12" value="用户主动保存" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;dashed=1;" parent="1" source="m_ready" target="m_save" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="main_e13" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="1" source="m_ready" target="m_click" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="main_e15" value="通过" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="1" source="m_guard" target="m_route" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="main_e16" value="是" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="1" source="m_route" target="m_cadprep" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="1335" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="main_e17" value="否" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="1" source="m_route" target="m_native" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1180" y="1335" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="main_e18" value="准备成功" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="1" source="m_cadprep" target="m_solver" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="1640" />
+              <mxPoint x="895" y="1640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="main_e19" value="准备成功" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="1" source="m_native" target="m_solver" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1180" y="1640" />
+              <mxPoint x="895" y="1640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="main_e20" value="现有限制" style="edgeStyle=orthogonalEdgeStyle;endArrow=none;html=0;labelBackgroundColor=#ffffff;dashed=1;strokeColor=#d6b656;" parent="1" source="m_native" target="m_inputnote" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1310" y="1430" />
+              <mxPoint x="1395" y="1430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="main_e21" value="未通过" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="1" source="m_solver" target="m_error" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="main_e22" value="通过" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="1" source="m_solver" target="m_parse" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="main_e23" value="手动加载" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;dashed=1;" parent="1" source="m_plt" target="m_parse" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1570" y="1957" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="main_e24" value="解析成功" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="1" source="m_parse" target="m_view" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="main_e25" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="1" source="m_view" target="m_origin" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="main_e26" value="是" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="1" source="m_origin" target="m_snapshot" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="main_e27" value="否：仅查看外部结果" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="1" source="m_origin" target="m_next" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1200" y="2295" />
+              <mxPoint x="1200" y="2545" />
+              <mxPoint x="895" y="2545" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="main_e28" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="1" source="m_snapshot" target="m_next" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="main_e29" value="关闭" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;" parent="1" source="m_next" target="m_close" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="main_e30" value="修改 / 再次计算" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=0;labelBackgroundColor=#ffffff;dashed=1;exitX=0;exitY=0.5;entryX=0;entryY=0.5;" parent="1" source="m_next" target="m_ready" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="2620" />
+              <mxPoint x="580" y="870" />
+              <mxPoint x="600" y="870" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jvQAVXSHA2rTicbOk-mt-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5vZWpeuJr3HITQHxux4a-1" target="m_guard">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2660" y="1138" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jvQAVXSHA2rTicbOk-mt-6" value="根据计算记录中的内容，进行计算" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jvQAVXSHA2rTicbOk-mt-5">
+          <mxGeometry x="0.1988" y="9" relative="1" as="geometry">
+            <mxPoint x="-73" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5vZWpeuJr3HITQHxux4a-1" value="将计算使用的配置、输入和结果作为一套计算记录，保存进暂存文件(若暂存文件中已有计算记录，则进行覆盖)" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="2060" y="930" width="500" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="jvQAVXSHA2rTicbOk-mt-7" value="删除计算记录，计算结果，暂存文件为空" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="2070" y="2775" width="500" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="jvQAVXSHA2rTicbOk-mt-9" value="将计算记录，计算结果存进暂存文件&#xa;(若暂存文件中已有计算记录，计算结果，则进行覆盖)" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="2075" y="2000" width="500" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="jvQAVXSHA2rTicbOk-mt-13" value="CAD / 表面模型&#xa;导入与显示；可手动或 AI 设置&#xa;详见第 2 页「建模段」" style="shape=process;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="1790" y="455" width="330" height="115" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
