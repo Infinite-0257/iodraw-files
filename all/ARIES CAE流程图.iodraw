@@ -5,7 +5,7 @@
         <mxCell id="pup2LY9M3DN4ASrADGuB-0" />
         <mxCell id="pup2LY9M3DN4ASrADGuB-1" parent="pup2LY9M3DN4ASrADGuB-0" />
         <mxCell id="pup2LY9M3DN4ASrADGuB-2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeWidth=3;" parent="pup2LY9M3DN4ASrADGuB-1" vertex="1">
-          <mxGeometry x="1935" y="510" width="770" height="2450" as="geometry" />
+          <mxGeometry x="1898" y="510" width="770" height="2450" as="geometry" />
         </mxCell>
         <mxCell id="pup2LY9M3DN4ASrADGuB-3" value="ARIES CAE｜当前软件运行主流程" style="text;html=0;fontSize=27;fontStyle=1;align=left;verticalAlign=middle;" parent="pup2LY9M3DN4ASrADGuB-1" vertex="1">
           <mxGeometry x="-170" y="-50" width="1820" height="50" as="geometry" />
@@ -260,22 +260,22 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pup2LY9M3DN4ASrADGuB-65" value="将当前模型和计算记录固定为本次计算快照，这份快照放在“临时计算过程”中，生成结果包时，应从本次计算快照中取配置" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="pup2LY9M3DN4ASrADGuB-1" vertex="1">
-          <mxGeometry x="2120" y="925" width="380" height="125" as="geometry" />
+          <mxGeometry x="2083" y="925" width="380" height="125" as="geometry" />
         </mxCell>
         <mxCell id="pup2LY9M3DN4ASrADGuB-66" value="删除计算记录，计算结果，暂存文件为空" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="pup2LY9M3DN4ASrADGuB-1" vertex="1">
-          <mxGeometry x="2070" y="2775" width="500" height="115" as="geometry" />
+          <mxGeometry x="2033" y="2775" width="500" height="115" as="geometry" />
         </mxCell>
         <mxCell id="pup2LY9M3DN4ASrADGuB-67" value="将计算记录，计算结果存进暂存文件&#xa;(若暂存文件中已有计算记录，计算结果，则进行覆盖)" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="pup2LY9M3DN4ASrADGuB-1" vertex="1">
-          <mxGeometry x="2075" y="2000" width="500" height="115" as="geometry" />
+          <mxGeometry x="2038" y="2000" width="500" height="115" as="geometry" />
         </mxCell>
         <mxCell id="q-8w-l1Lf4INOttznGJh-0" value="导入网格&#xa;使用外部已经划好的网格&#xa;（边界条件如何设置？&#xa;在CAD中设置：CAD与网格直接的匹配问题&#xa;在网格中设置：需独立增加“网格上设置边界条件”的程序）" style="rounded=1;fillColor=#e51400;strokeColor=#B20000;whiteSpace=wrap;html=0;fontSize=15;spacing=8;fontColor=#ffffff;" parent="pup2LY9M3DN4ASrADGuB-1" vertex="1">
           <mxGeometry x="140" y="545.83" width="440" height="135" as="geometry" />
         </mxCell>
         <mxCell id="q-8w-l1Lf4INOttznGJh-5" value="新建临时工作区&#xa;将当前算例中含有的信息加载到临时工作区中" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="pup2LY9M3DN4ASrADGuB-1" vertex="1">
-          <mxGeometry x="2250" y="557.92" width="206" height="99.17" as="geometry" />
+          <mxGeometry x="2213" y="557.92" width="206" height="99.17" as="geometry" />
         </mxCell>
         <mxCell id="DhECXwNkiA2Bq2NcHUQ1-0" value="根据设置的参数内容&#xa;修改计算记录" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="pup2LY9M3DN4ASrADGuB-1" vertex="1">
-          <mxGeometry x="2240" y="805.01" width="206" height="74.99" as="geometry" />
+          <mxGeometry x="2203" y="805.01" width="206" height="74.99" as="geometry" />
         </mxCell>
         <mxCell id="DhECXwNkiA2Bq2NcHUQ1-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="pup2LY9M3DN4ASrADGuB-1" source="DhECXwNkiA2Bq2NcHUQ1-4" target="q-8w-l1Lf4INOttznGJh-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -287,31 +287,31 @@
           <mxGeometry x="590" y="557.92" width="460" height="102.08" as="geometry" />
         </mxCell>
         <mxCell id="DhECXwNkiA2Bq2NcHUQ1-7" value="当前模型" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="pup2LY9M3DN4ASrADGuB-1" vertex="1">
-          <mxGeometry x="2020" y="1520" width="180" height="65" as="geometry" />
+          <mxGeometry x="1983" y="1520" width="180" height="65" as="geometry" />
         </mxCell>
         <mxCell id="DhECXwNkiA2Bq2NcHUQ1-8" value="临时工作区（同一项信息只能有一个权威来源）" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="pup2LY9M3DN4ASrADGuB-1" vertex="1">
-          <mxGeometry x="2020" y="1440" width="610" height="55" as="geometry" />
+          <mxGeometry x="1983" y="1440" width="610" height="55" as="geometry" />
         </mxCell>
         <mxCell id="DhECXwNkiA2Bq2NcHUQ1-9" value="计算配置记录" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="pup2LY9M3DN4ASrADGuB-1" vertex="1">
-          <mxGeometry x="2021" y="1600" width="180" height="65" as="geometry" />
+          <mxGeometry x="1984" y="1600" width="180" height="65" as="geometry" />
         </mxCell>
         <mxCell id="DhECXwNkiA2Bq2NcHUQ1-10" value="临时计算过程" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="pup2LY9M3DN4ASrADGuB-1" vertex="1">
-          <mxGeometry x="2020" y="1680" width="180" height="65" as="geometry" />
+          <mxGeometry x="1983" y="1680" width="180" height="65" as="geometry" />
         </mxCell>
         <mxCell id="DhECXwNkiA2Bq2NcHUQ1-11" value="计算结果" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="pup2LY9M3DN4ASrADGuB-1" vertex="1">
-          <mxGeometry x="2020" y="1760" width="180" height="65" as="geometry" />
+          <mxGeometry x="1983" y="1760" width="180" height="65" as="geometry" />
         </mxCell>
         <mxCell id="DhECXwNkiA2Bq2NcHUQ1-12" value="最近一次成功计算的完整模型、配置、输入、结果&#xa;新计算成功且结果检查通过后，整体替换" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="pup2LY9M3DN4ASrADGuB-1" vertex="1">
-          <mxGeometry x="2210" y="1760" width="420" height="65" as="geometry" />
+          <mxGeometry x="2173" y="1760" width="420" height="65" as="geometry" />
         </mxCell>
         <mxCell id="DhECXwNkiA2Bq2NcHUQ1-13" value="当前几何（复制一份用户上传的模型）、拓扑、选区，以及当前有效的网格&#xa;随模型操作更新；受影响的旧网格标记为失效" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="pup2LY9M3DN4ASrADGuB-1" vertex="1">
-          <mxGeometry x="2210" y="1520" width="420" height="65" as="geometry" />
+          <mxGeometry x="2173" y="1520" width="420" height="65" as="geometry" />
         </mxCell>
         <mxCell id="DhECXwNkiA2Bq2NcHUQ1-14" value="材料、分析类型、载荷、约束、网格参数、求解器设置&#xa;随用户确认的设置更新" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="pup2LY9M3DN4ASrADGuB-1" vertex="1">
-          <mxGeometry x="2210" y="1600" width="420" height="65" as="geometry" />
+          <mxGeometry x="2173" y="1600" width="420" height="65" as="geometry" />
         </mxCell>
         <mxCell id="DhECXwNkiA2Bq2NcHUQ1-15" value="模型与配置快照、实际输入、中间文件、日志和运行状态&#xa;开始新计算时重建；运行期间专属于本次计算" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="pup2LY9M3DN4ASrADGuB-1" vertex="1">
-          <mxGeometry x="2210" y="1680" width="420" height="65" as="geometry" />
+          <mxGeometry x="2173" y="1680" width="420" height="65" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
