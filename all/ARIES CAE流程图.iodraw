@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" compressed="false" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36 Edg/152.0.0.0" version="24.7.17" pages="4">
   <diagram name="01.1 当前软件主流程 的副本" id="q1kGPTrqL-9Be9igUj_z">
-    <mxGraphModel dx="3670" dy="6700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1940" pageHeight="2780" math="0" shadow="0">
+    <mxGraphModel dx="5305" dy="9850" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1940" pageHeight="2780" math="0" shadow="0">
       <root>
         <mxCell id="pup2LY9M3DN4ASrADGuB-0" />
         <mxCell id="pup2LY9M3DN4ASrADGuB-1" parent="pup2LY9M3DN4ASrADGuB-0" />
@@ -59,9 +59,6 @@
         </mxCell>
         <mxCell id="pup2LY9M3DN4ASrADGuB-13" value="仿真参数设置&#xa;可手动或 AI 设置&#xa;详见第 2 页「建模段」" style="rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="pup2LY9M3DN4ASrADGuB-1" vertex="1">
           <mxGeometry x="770" y="790" width="250" height="105" as="geometry" />
-        </mxCell>
-        <mxCell id="pup2LY9M3DN4ASrADGuB-14" value="可选：保存 / 另存会话 JSON&#xa;写入程序路径、显示选项、材料、分析、&#xa;网格、求解设置及输出字段&#xa;不打包模型、边界条件或计算结果" style="rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;whiteSpace=wrap;html=0;fontSize=15;spacing=8;" parent="pup2LY9M3DN4ASrADGuB-1" vertex="1">
-          <mxGeometry x="3220" y="700" width="440" height="155" as="geometry" />
         </mxCell>
         <mxCell id="DhECXwNkiA2Bq2NcHUQ1-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="pup2LY9M3DN4ASrADGuB-1" source="pup2LY9M3DN4ASrADGuB-16" target="pup2LY9M3DN4ASrADGuB-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
